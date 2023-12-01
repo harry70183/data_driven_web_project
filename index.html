@@ -1,0 +1,111 @@
+<html><head>
+    
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <style>
+         
+    </style>
+    <body>
+        <svg id="graph" height="600" width="600" style="background: #fff; margin-top:50px">
+        </svg>
+        <script id="p1">
+        const layer = d3.select("#graph").append("g");
+        const width = d3.select("#graph").attr("width");
+        const height = d3.select("#graph").attr("height");
+        
+        const requestData = async () => {
+            const feat = await d3.json("feat.json", d3.autoType);
+            console.log(feat);
+
+            let edges = feat.edges;
+            var nodes = feat.nodes;
+            const streamExtent = d3.extent(edges, d=>d.stream);
+            const streamScale = d3.scaleLinear().domain(streamExtent).range([1,100]);
+
+            // Each nodes' sizes depend on singers' total streams
+            const totalStreamsExtent = d3.extent(nodes, d => d.total_streams);
+            const totalStreamsScale = d3.scaleLinear().domain(totalStreamsExtent).range([15, 45]);  
+
+            var links = [];
+            for(let i=0; i< edges.length; i++){
+                link = {"source":edges[i]["source"], "target":edges[i]["target"]};
+                links.push(link);
+            }
+            var sim = d3.forceSimulation()
+                        .nodes(nodes)
+                        .force("links", d3.forceLink()
+                                            .links(links)
+                                            .id(node => node["name"]))
+                        .force("repulse", d3.forceManyBody().strength(-5))
+                        .force("center", d3.forceCenter(width/2.0, height/2.0))
+                        .on("tick", render);
+
+            function render(){
+                // Edges
+                let lines = layer.selectAll("line").data(links)
+                                .join(
+                                    enter => enter.append("line")
+                                                .attr("class", "link")
+                                                .attr("stroke", "black")
+                                                .attr("stroke-width", edges => streamScale(edges.stream)))
+                                .attr("x1", d => d.source.x).attr("x2", d => d.target.x)   
+                                .attr("y1", d => d.source.y).attr("y2", d => d.target.y);
+
+                // use g-element to include circle 和 text
+                let nodesGroup = layer.selectAll(".node-group").data(nodes)
+                                        .join("g")
+                                        .attr("class", "node-group")
+                                        .call(d3.drag().on("start", dragstart)
+                                                        .on("drag", dragging)
+                                                        .on("end", dragend));
+
+                nodesGroup.selectAll("circle")
+                            .data(d => [d]) 
+                            .join("circle")
+                            .attr("class", "node")
+                            .attr("stroke", "black")
+                            .attr("stroke-width", 1.5)
+                            .attr("r", d => totalStreamsScale(d.total_streams))
+                            .attr("cx", 0)
+                            .attr("cy", 0)
+                            .attr("fill", "lightgreen");
+
+                nodesGroup.selectAll("text")
+                    .data(d => [d]) 
+                    .join("text")
+                    .text(d => d.name)
+                    .attr("font-size", 8)
+                    .attr("font-weight", "bold")
+                    .attr("fill", "darkgreen")
+                    .attr("dy", "0.35em")
+                    .attr("text-anchor", "middle");
+
+                nodesGroup.attr("transform", d => `translate(${Math.max(10, Math.min(width-10, d.x))},${Math.max(10, Math.min(height-10, d.y))})`);
+                                                
+            }
+
+            render();
+
+            function dragstart(event, d){
+                if(!event.active){
+                    sim.alphaTarget(0.08).restart();
+                }
+                d.fx = d.x;
+                d.fy = d.y;
+
+            }
+            function dragging(event, d){
+                d.fx = Math.max(10, Math.min(width-10, event.x));
+                d.fy = Math.max(10, Math.min(height-10, event.y));
+            }
+            function dragend(event, d){
+                if(!event.active){
+                    sim.alphaTarget(0);
+                }
+                d.fx = null;
+                d.fy = null;
+            }
+        }
+        requestData();
+        </script>
+</body>
+</html>        
