@@ -1,12 +1,107 @@
-<html><head>
+<html>
+<head>
     
     <script src="https://d3js.org/d3.v7.min.js"></script>
     <style>
+        .gridlines line {
+    stroke: #bbb;
+  }
+  
+  .gridlines .domain {
+    stroke: none;
+  }
+
+  .horizontallayout {
+    display: inline-block;
+    vertical-align: top; 
+   
+}
+
+
+   .custom-title {
+    background-color: lightblue; 
+    display: inline-block; 
+    padding: 10px 10px; 
+    border-radius: 2px; 
+    color: white; 
+     font-size: 28px;
+    font-family: "Arial", sans-serif;}
+    
+   .modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+    padding-top: 60px;
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.close {
+   font-size: 40px; 
+   position: absolute;
+    line-height: 30px;
+    cursor: pointer; 
+   top: 5px;
+    right: 10px;
+}
+
+.modal-title {
+    color: #000; 
+    font-size: 24px;
          
-    </style>
+ }
+
+</style>
+
+<h1 > <span class="custom-title">INFO 5100 - Project 3 </span></h1>
+        <h3 style="font-family: Arial, sans-serif;">Yu-Chen  Chang, netID: yc2738<br>
+            Lirui Xiao, netID:lx258<br>
+            Yuning Zhang, netID: yz3227<br>            
+            An-Hsin Chen, netID: ac2724<br> 
+        </h3>
+    <h2><span class="custom-title">Spotify Songs Network Visualization</span></h2>
+    <h3 style="font-family: Arial, sans-serif;">
+       <br > The following two graphs visualize the most famous songs of 2023 as listed on Spotify, along with the relationships between the collaborating artists behind these songs. 
+    <br >You can drag our nodes to observe the effects. Upon clicking, the selected artist's song titles and their respective play counts will be displayed.
+    <br > Additionally, you can click on the circles in our bar chart to explore the attribute radar charts for each song.
+    </h3>
+
+</head>
     <body>
-        <svg id="graph" height="600" width="600" style="background: #fff; margin-top:50px">
+        <svg id="graph" class="horizontallayout" height="1000" width="1000" style="background: #fff; margin-top:50px">
         </svg>
+        <svg height="400" width="300">
+            <text x="150" y="350" text-anchor="middle" font-size="16px">click the circle to see more ->> </text>
+         </svg>
+        <svg id="plot" class="horizontallayout" height="400" width="470" style="margin-top: 300px;">
+            <text id="label" text-anchor="middle"></text>
+        </svg>
+        <div id="myModal" class="modal">            
+            <div class="modal-content">
+              <span class="close">&times;</span> 
+              <span class="modal-title"></span>  
+              <div id="radar-chart"></div>
+            </div>
+         </div>
+
         <script id="p1">
         const layer = d3.select("#graph").append("g");
         const width = d3.select("#graph").attr("width");
@@ -34,8 +129,9 @@
                         .nodes(nodes)
                         .force("links", d3.forceLink()
                                             .links(links)
-                                            .id(node => node["name"]))
-                        .force("repulse", d3.forceManyBody().strength(-5))
+                                            .id(node => node["name"])
+                                            .distance(100))
+                        .force("repulse", d3.forceManyBody().strength(-17))
                         .force("center", d3.forceCenter(width/2.0, height/2.0))
                         .on("tick", render);
 
@@ -58,7 +154,7 @@
                                                         .on("drag", dragging)
                                                         .on("end", dragend));
 
-                nodesGroup.selectAll("circle")
+                circles = nodesGroup.selectAll("circle")
                             .data(d => [d]) 
                             .join("circle")
                             .attr("class", "node")
@@ -69,7 +165,7 @@
                             .attr("cy", 0)
                             .attr("fill", "lightgreen");
 
-                nodesGroup.selectAll("text")
+                texts = nodesGroup.selectAll("text")
                     .data(d => [d]) 
                     .join("text")
                     .text(d => d.name)
@@ -80,6 +176,8 @@
                     .attr("text-anchor", "middle");
 
                 nodesGroup.attr("transform", d => `translate(${Math.max(10, Math.min(width-10, d.x))},${Math.max(10, Math.min(height-10, d.y))})`);
+
+                
                                                 
             }
 
@@ -104,8 +202,275 @@
                 d.fx = null;
                 d.fy = null;
             }
+
+            //chart
+
+            const svg = d3.select('#plot');
+
+                const plotwidth = svg.attr('width');
+                const plotheight = svg.attr('height');
+                const margins = {top: 10, right: 10, bottom: 50, left: 120}; 
+                const chartWidth = plotwidth - margins.left - margins.right;
+                const chartHeight = plotheight - margins.top - margins.bottom;
+                const initialBpmExtent = [0, 100]; 
+                const initialStreamExtent = [0, 10000]; 
+                const songBpmScale = d3.scaleLinear().domain(initialBpmExtent).range([0, chartWidth]);
+                const songStreamScale = d3.scaleLinear().domain(initialStreamExtent).range([chartHeight, 0]);
+
+    let leftAxis = d3.axisLeft(songStreamScale);
+    let bottomAxis = d3.axisBottom(songBpmScale);
+    svg.append('g').attr('class', 'y axis').attr('transform', `translate(${margins.left-10},${margins.top})`).call(leftAxis);
+    svg.append('g').attr('class', 'x axis').attr('transform', `translate(${margins.left},${chartHeight+margins.top+10})`).call(bottomAxis);
+
+            circles.on("mouseover", function() {
+                d3.select(this)
+                    .transition().duration(200)
+                    .attr("stroke", "black")
+                    .attr("stroke-width", 4);
+
+                svg.selectAll("*:not(#label)").remove();
+                let chartArea = svg.append('g')
+                                    .attr('transform',`translate(${margins.left},${margins.top})`);
+
+
+                //console.log(d3.select(this).datum().songs);
+                songData = d3.select(this).datum().songs;
+                          
+                        
+                        
+                var songBpmExtent = d3.extent(songData, d => d.bpm);
+                const songBpmScale = d3.scaleLinear().domain(songBpmExtent).range([0, chartWidth]);
+
+                
+                var songStreamExtent = d3.extent(songData, d => d.streams);
+                const songStreamScale = d3.scaleLinear().domain(songStreamExtent).range([chartHeight, 0]); 
+
+                let leftAxis = d3.axisLeft(songStreamScale); 
+                svg.append('g')
+                    .attr('class', 'y axis')
+                    .attr('transform',`translate(${margins.left-10},${margins.top})`) 
+                    .call(leftAxis);
+                
+                svg. append("text")
+                    .attr("class", "y label")
+                    .attr("y", margins.left - 100) 
+                    .attr("x", -(chartHeight / 2)-35)
+                    .attr("dy", ".7em")
+                    .attr("transform", "rotate(-90)")
+                    .text("Streams");
+                    
+                let bottomAxis = d3.axisBottom(songBpmScale).ticks(9)  
+                let element = svg.append('g')
+                    .attr('class', 'y axis')
+                    .attr('transform',`translate(${margins.left},${chartHeight+margins.top+10})`)
+                    .call(bottomAxis);
+
+                svg.append("text")
+                    .attr("class", "x label")
+                    .attr("x", chartWidth / 2 +105) 
+                    .attr("y", chartHeight + margins.bottom+5 ) 
+                    .text("Bpm");
+
+
+                let leftGridlines = d3.axisLeft(songStreamScale)
+                    .tickSize(-chartWidth-10)
+                    .tickFormat('');
+   
+                svg.append('g')
+                    .attr('class', 'y gridlines')
+                    .attr('transform',`translate(${margins.left-10},${margins.top})`)
+                    .lower()
+                    .call(leftGridlines);
+            
+                let bottomGridlines = d3.axisBottom(songBpmScale)
+                    .tickSize(-chartHeight-10)
+                    .tickFormat('')
+                    .ticks(9); 
+
+                svg.append('g')
+                    .attr('class', 'x gridlines') 
+                    .attr('transform',`translate(${margins.left},${chartHeight+margins.top+10})`)
+                    .lower()
+                    .call(bottomGridlines);
+   
+
+                let songCircles = chartArea.selectAll("circle").data(songData)
+                    .join("circle")
+                    .attr("cx", d => songBpmScale(d.bpm))
+                    .attr("cy", d => songStreamScale(d.streams))
+                    .attr("r", 8)
+                    .attr("fill", "lightgreen")
+                    .attr("class", "songcircle");
+                    
+                songCircles.on("mouseover", function() {
+                    d3.select(this)
+                        .transition().duration(200)
+                        .attr('r', 13)
+                        .attr("stroke", "black")
+                        .attr("stroke-width", 3);
+
+                    let title = d3.select(this).datum()['track_name']
+                        //console.log(title);
+
+                    d3.select("#label")
+                        .attr("x", 110+chartWidth/2)
+                        .attr("y", chartHeight/2)
+                        .text(title);
+
+
+
+
+});
+
+            songCircles.on("click", function(event) {
+                    let selectdata = d3.select(this).datum();
+                    console.log(selectdata);
+                    showRadarChart(selectdata);
+});
+
+
+                    songCircles.on("mouseout", function() {
+                        d3.select(this)
+                            .transition().duration(200)  
+                            .attr("stroke-width", 0)
+                            .attr('r', 8);
+
+                        d3.select("#label")
+                            .text("");});});
+
+                
+            
+            circles.on("mouseout", function() {
+                    d3.select(this)
+                        .transition().duration(200)  
+                        .attr("stroke", "black")
+                        .attr("stroke-width", 1);
+
+                   });
+
+
+
+
         }
         requestData();
+
+        function showRadarChart(data) {
+         d3.select("#radar-chart").selectAll("*").remove();
+          d3.select("#myModal").style("display", "block");
+          d3.select(".modal-title").text(data.track_name);
+          const radarChartMargin = { top: 100, right: 100, bottom: 100, left: 100 },
+          radarChartWidth = Math.min(700, window.innerWidth - 10) - radarChartMargin.left - radarChartMargin.right,
+          radarChartHeight = Math.min(radarChartWidth, window.innerHeight - radarChartMargin.top - radarChartMargin.bottom - 20),
+          radius = Math.min(radarChartWidth / 2, radarChartHeight / 2),
+          totalAxes = 5, 
+          angleSlice = Math.PI * 2 / totalAxes;
+
+          
+
+    const svg = d3.select("#radar-chart").append("svg")
+        .attr("width", radarChartWidth + radarChartMargin.left + radarChartMargin.right)
+        .attr("height", radarChartHeight + radarChartMargin.top + radarChartMargin.bottom)
+        .append("g")
+        .attr("transform", "translate(" + (radarChartWidth / 2 + radarChartMargin.left) + "," + (radarChartHeight / 2 + radarChartMargin.top) + ")");
+
+    for(let i = 0; i < totalAxes; i++) {
+        let angle = angleSlice * i- Math.PI / 2;
+        svg.append("line")
+            .attr("x1", 0)
+            .attr("y1", 0)
+            .attr("x2", radius * Math.cos(angle))
+            .attr("y2", radius * Math.sin(angle))
+            .attr("stroke", "black")
+            .attr("stroke-width", "2px");
+    }
+
+    const gridLevels = 5;
+    for(let j = 0; j < gridLevels; j++) {
+        let gridRadius = radius * ((j + 1) / gridLevels);
+        svg.append("circle")
+            .attr("cx", 0)
+            .attr("cy", 0)
+            .attr("r", gridRadius)
+            .style("fill", "none")
+            .style("stroke", "grey")
+            .style("stroke-opacity", "0.5")
+            .style("stroke-width", "0.5px");
+    }
+
+    let radarData = [
+        {axis: "Danceability", value: data["danceability_%"] / 100},
+        {axis: "Energy", value: data["energy_%"] / 100},
+        {axis: "Speechiness", value: data["speechiness_%"]  / 100},
+        {axis: "Valence", value: data["valence_%"]  / 100},
+        {axis: "Acousticness", value: data["acousticness_%"]  / 100}
+    ];
+
+
+
+    radarData.forEach((d, i) => {
+        svg.append("circle")
+            .attr("cx", radius * Math.cos(angleSlice * i- Math.PI / 2) * d.value)
+            .attr("cy", radius * Math.sin(angleSlice * i- Math.PI / 2) * d.value)
+            .attr("r", 7)
+            .style("fill", "red");
+
+         svg.append("text")
+              .attr("x", radius * Math.cos(angleSlice * i- Math.PI / 2) * d.value+20)
+              .attr("y", radius * Math.sin(angleSlice * i- Math.PI / 2) * d.value)
+              .text((d.value*100).toFixed(0)) 
+              .attr("font-size", "15px")
+              .attr("text-anchor", "middle")
+              .attr("alignment-baseline", "middle");
+    });
+
+
+
+let radarLine = d3.radialLine()
+    .radius(d => radius * (d.value)) 
+    .angle((d, i) => i * angleSlice)
+    .curve(d3.curveLinearClosed); 
+
+
+radarData = radarData.concat([radarData[0]]); 
+
+
+svg.append("path")
+   .datum(radarData)
+   .attr("d", radarLine)
+   //.attr("transform", "translate(" + (radarChartWidth / 2 + radarChartMargin.left) + "," + (radarChartHeight / 2 + radarChartMargin.top) + ")")
+   .style("stroke", "darkblue")
+   .style("fill", "none")
+   .style("stroke-width", "3px");
+
+
+
+
+svg.selectAll(".axisLabel")
+   .data(radarData)
+   .enter().append("text")
+   .attr("class", "axisLabel")
+   .attr("x", (d, i) => radius * 1.1 * Math.cos(angleSlice * i- Math.PI / 2))
+   .attr("y", (d, i) => radius * 1.1 * Math.sin(angleSlice * i- Math.PI / 2))
+   .text(d => d.axis)
+   .style("font-size", "17px")
+   .attr("text-anchor", "middle")
+   .attr("alignment-baseline", "middle");
+
+
+d3.select("#myModal").style("display", "block");
+
+
+d3.select(".close").on("click", function() {
+    d3.select("#myModal").style("display", "none");
+});
+
+}
+
+
+d3.select(".close").on("click", function() {
+    d3.select("#myModal").style("display", "none");
+});
+
         </script>
 </body>
 </html>        
