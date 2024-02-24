@@ -2,391 +2,2265 @@
   "nodes": [
     {
       "name": "Tainy",
-      "total_streams": 61245289
-    },
-    {
-      "name": "Arcangel",
-      "total_streams": 100409613
-    },
-    {
-      "name": "Rich The Kid",
-      "total_streams": 77233241
-    },
-    {
-      "name": "Kanii",
-      "total_streams": 77377503
-    },
-    {
-      "name": "Colde",
-      "total_streams": 34502215
-    },
-    {
-      "name": "Chino Pacas",
-      "total_streams": 116334601
-    },
-    {
-      "name": "Latto",
-      "total_streams": 141381703
-    },
-    {
-      "name": "Lil Durk",
-      "total_streams": 190630817
-    },
-    {
-      "name": "Becky G",
-      "total_streams": 161460990
-    },
-    {
-      "name": "BLESSD",
-      "total_streams": 127026613
-    },
-    {
-      "name": "PR1ISVX",
-      "total_streams": 77377503
-    },
-    {
-      "name": "Tyler",
-      "total_streams": 139231626
-    },
-    {
-      "name": "La Kelly",
-      "total_streams": 162887075
-    },
-    {
-      "name": "Kaliii",
-      "total_streams": 227018992
-    },
-    {
-      "name": "Morgan Wallen",
-      "total_streams": 104956598
-    },
-    {
-      "name": "Gorillaz",
-      "total_streams": 149778242
-    },
-    {
-      "name": "ROSALï¿½",
-      "total_streams": 357925728
-    },
-    {
-      "name": "Milo j",
-      "total_streams": 248088961
-    },
-    {
-      "name": "Fuerza Regida",
-      "total_streams": 116334601
-    },
-    {
-      "name": "Eladio Carrion",
-      "total_streams": 250305248
-    },
-    {
-      "name": "Offset",
-      "total_streams": 24975653
-    },
-    {
-      "name": "Jhayco",
-      "total_streams": 61105704
-    },
-    {
-      "name": "Jung Kook",
-      "total_streams": 141381703
-    },
-    {
-      "name": "DJ 900",
-      "total_streams": 11956641
-    },
-    {
-      "name": "PinkPantheress",
-      "total_streams": 156338624
-    },
-    {
-      "name": "Nicki Minaj",
-      "total_streams": 104992946
-    },
-    {
-      "name": "DJ Matt D",
-      "total_streams": 39709092
-    },
-    {
-      "name": "Agust D",
-      "total_streams": 95816024
-    },
-    {
-      "name": "James Blake",
-      "total_streams": 39666245
-    },
-    {
-      "name": "Rauw Alejandro",
-      "total_streams": 479094333
-    },
-    {
-      "name": "Natanael Cano",
-      "total_streams": 436027885
-    },
-    {
-      "name": "Calvin Harris",
-      "total_streams": 211050784
-    },
-    {
-      "name": "Eric Church",
-      "total_streams": 58890931
-    },
-    {
-      "name": "Yahritza Y Su Esencia",
-      "total_streams": 188933502
-    },
-    {
-      "name": "Romeo Santos",
-      "total_streams": 266624541
-    },
-    {
-      "name": "dennis",
-      "total_streams": 111947664
-    },
-    {
-      "name": "j-hope",
-      "total_streams": 116599790
-    },
-    {
-      "name": "Peso P",
-      "total_streams": 129083819
-    },
-    {
-      "name": "Ice Spice",
-      "total_streams": 307474342
-    },
-    {
-      "name": "Israel & Rodolffo",
-      "total_streams": 138517666
-    },
-    {
-      "name": "Nicky Jam",
-      "total_streams": 57945987
-    },
-    {
-      "name": "Shakira",
-      "total_streams": 1340965991
-    },
-    {
-      "name": "Grupo Frontera",
-      "total_streams": 894189544
-    },
-    {
-      "name": "Eslabon Armado",
-      "total_streams": 725980112
-    },
-    {
-      "name": "Nile Rodgers",
-      "total_streams": 92035115
-    },
-    {
-      "name": "TAEYANG",
-      "total_streams": 229760939
-    },
-    {
-      "name": "Halsey",
-      "total_streams": 51985779
-    },
-    {
-      "name": "The Creator",
-      "total_streams": 139231626
-    },
-    {
-      "name": "LE SSERAFIM",
-      "total_streams": 92035115
-    },
-    {
-      "name": "MC Kevin o Chris",
-      "total_streams": 111947664
-    },
-    {
-      "name": "Ana Castela",
-      "total_streams": 233801632
-    },
-    {
-      "name": "Feid",
-      "total_streams": 508178261
-    },
-    {
-      "name": "RM",
-      "total_streams": 34502215
-    },
-    {
-      "name": "Bizarrap",
-      "total_streams": 1144201037
-    },
-    {
-      "name": "Taiu",
-      "total_streams": 248088961
-    },
-    {
-      "name": "Lana Del Rey",
-      "total_streams": 60350538
-    },
-    {
-      "name": "Jimin",
-      "total_streams": 152850295
-    },
-    {
-      "name": "Young Miko",
-      "total_streams": 335222234
-    },
-    {
-      "name": "Mc Livinho",
-      "total_streams": 39709092
-    },
-    {
-      "name": "Ariana Grande",
-      "total_streams": 518745108
-    },
-    {
-      "name": "Semicenk",
-      "total_streams": 43522589
-    },
-    {
-      "name": "IU",
-      "total_streams": 95816024
-    },
-    {
-      "name": "Ellie Goulding",
-      "total_streams": 211050784
-    },
-    {
-      "name": "Jasiel Nuï¿½ï¿½ez",
-      "total_streams": 129083819
-    },
-    {
-      "name": "Junior H",
-      "total_streams": 807641030
-    },
-    {
-      "name": "Future",
-      "total_streams": 96180277
-    },
-    {
-      "name": "Metro Boomin",
-      "total_streams": 109773220
-    },
-    {
-      "name": "Sean Paul",
-      "total_streams": 115010040
-    },
-    {
-      "name": "Doï¿½ï¿½u",
-      "total_streams": 43522589
-    },
-    {
-      "name": "Karol G",
-      "total_streams": 979053844
-    },
-    {
-      "name": "Matuï¿",
-      "total_streams": 77233241
-    },
-    {
-      "name": "JID",
-      "total_streams": 24975653
-    },
-    {
-      "name": "Oscar Maydon",
-      "total_streams": 307370144
-    },
-    {
-      "name": "Mari Fernandez",
-      "total_streams": 138517666
-    },
-    {
-      "name": "AgroPlay",
-      "total_streams": 233801632
-    },
-    {
-      "name": "Lisa",
-      "total_streams": 76910644
-    },
-    {
-      "name": "Yng Lvcas",
-      "total_streams": 553634067
-    },
-    {
-      "name": "Bad Bunny",
-      "total_streams": 967000217
-    },
-    {
-      "name": "Grupo Marca Registrada",
-      "total_streams": 147290338
-    },
-    {
-      "name": "Suga",
-      "total_streams": 51985779
-    },
-    {
-      "name": "MC Caverinha",
-      "total_streams": 71573339
-    },
-    {
-      "name": "Marshmello",
-      "total_streams": 223633238
-    },
-    {
-      "name": "Eden Muï¿½ï",
-      "total_streams": 89933133
-    },
-    {
-      "name": "Peso Pluma",
-      "total_streams": 2667408907
-    },
-    {
-      "name": "Kendrick Lamar",
-      "total_streams": 57089066
+      "total_streams": 61245289,
+      "songs": [
+        {
+          "artist": "Tainy",
+          "feat": "Bad Bunny",
+          "track_name": "MOJABI GHOST",
+          "streams": 61245289,
+          "bpm": 122,
+          "valence_%": 74,
+          "energy_%": 71,
+          "danceability_%": 81,
+          "speechiness_%": 4,
+          "acousticness_%": 14
+        }
+      ]
     },
     {
       "name": "Manuel Turizo",
-      "total_streams": 223633238
+      "total_streams": 223633238,
+      "songs": [
+        {
+          "artist": "Manuel Turizo",
+          "feat": "Marshmello",
+          "track_name": "El Merengue",
+          "streams": 223633238,
+          "bpm": 124,
+          "valence_%": 70,
+          "energy_%": 68,
+          "danceability_%": 78,
+          "speechiness_%": 4,
+          "acousticness_%": 3
+        }
+      ]
     },
     {
-      "name": "Dave",
-      "total_streams": 183706234
+      "name": "Eden Muï¿½ï",
+      "total_streams": 89933133,
+      "songs": [
+        {
+          "artist": "Eden Muï¿½ï",
+          "feat": "Junior H",
+          "track_name": "Abcdario",
+          "streams": 89933133,
+          "bpm": 129,
+          "valence_%": 42,
+          "energy_%": 43,
+          "danceability_%": 70,
+          "speechiness_%": 3,
+          "acousticness_%": 78
+        }
+      ]
+    },
+    {
+      "name": "Israel & Rodolffo",
+      "total_streams": 138517666,
+      "songs": [
+        {
+          "artist": "Israel & Rodolffo",
+          "feat": "Mari Fernandez",
+          "track_name": "Seu Brilho Sumiu - Ao Vivo",
+          "streams": 138517666,
+          "bpm": 154,
+          "valence_%": 75,
+          "energy_%": 92,
+          "danceability_%": 63,
+          "speechiness_%": 5,
+          "acousticness_%": 31
+        }
+      ]
+    },
+    {
+      "name": "Semicenk",
+      "total_streams": 43522589,
+      "songs": [
+        {
+          "artist": "Semicenk",
+          "feat": "Doï¿½ï¿½u",
+          "track_name": "Piï¿½ï¿½man Deï¿",
+          "streams": 43522589,
+          "bpm": 98,
+          "valence_%": 45,
+          "energy_%": 62,
+          "danceability_%": 73,
+          "speechiness_%": 13,
+          "acousticness_%": 28
+        }
+      ]
+    },
+    {
+      "name": "Eric Church",
+      "total_streams": 58890931,
+      "songs": [
+        {
+          "artist": "Eric Church",
+          "feat": "Morgan Wallen",
+          "track_name": "Man Made A Bar (feat. Eric Church)",
+          "streams": 58890931,
+          "bpm": 148,
+          "valence_%": 49,
+          "energy_%": 76,
+          "danceability_%": 50,
+          "speechiness_%": 3,
+          "acousticness_%": 12
+        }
+      ]
+    },
+    {
+      "name": "Doï¿½ï¿½u",
+      "total_streams": 43522589,
+      "songs": [
+        {
+          "artist": "Doï¿½ï¿½u",
+          "feat": "Semicenk",
+          "track_name": "Piï¿½ï¿½man Deï¿",
+          "streams": 43522589,
+          "bpm": 98,
+          "valence_%": 45,
+          "energy_%": 62,
+          "danceability_%": 73,
+          "speechiness_%": 13,
+          "acousticness_%": 28
+        }
+      ]
+    },
+    {
+      "name": "Taiu",
+      "total_streams": 248088961,
+      "songs": [
+        {
+          "artist": "Taiu",
+          "feat": "Milo j",
+          "track_name": "Rara Vez",
+          "streams": 248088961,
+          "bpm": 120,
+          "valence_%": 96,
+          "energy_%": 71,
+          "danceability_%": 84,
+          "speechiness_%": 17,
+          "acousticness_%": 18
+        }
+      ]
+    },
+    {
+      "name": "Ellie Goulding",
+      "total_streams": 211050784,
+      "songs": [
+        {
+          "artist": "Ellie Goulding",
+          "feat": "Calvin Harris",
+          "track_name": "Miracle (with Ellie Goulding)",
+          "streams": 211050784,
+          "bpm": 143,
+          "valence_%": 31,
+          "energy_%": 87,
+          "danceability_%": 64,
+          "speechiness_%": 4,
+          "acousticness_%": 4
+        }
+      ]
+    },
+    {
+      "name": "Peso P",
+      "total_streams": 129083819,
+      "songs": [
+        {
+          "artist": "Peso P",
+          "feat": "Jasiel Nuï¿½ï¿½ez",
+          "track_name": "LAGUNAS",
+          "streams": 39058561,
+          "bpm": 116,
+          "valence_%": 79,
+          "energy_%": 62,
+          "danceability_%": 77,
+          "speechiness_%": 3,
+          "acousticness_%": 33
+        },
+        {
+          "artist": "Peso P",
+          "feat": "Jasiel Nuï¿½ï¿½ez",
+          "track_name": "Rosa Pastel",
+          "streams": 90025258,
+          "bpm": 123,
+          "valence_%": 86,
+          "energy_%": 68,
+          "danceability_%": 70,
+          "speechiness_%": 4,
+          "acousticness_%": 24
+        }
+      ]
+    },
+    {
+      "name": "Nicky Jam",
+      "total_streams": 57945987,
+      "songs": [
+        {
+          "artist": "Nicky Jam",
+          "feat": "Feid",
+          "track_name": "69",
+          "streams": 57945987,
+          "bpm": 93,
+          "valence_%": 58,
+          "energy_%": 62,
+          "danceability_%": 79,
+          "speechiness_%": 23,
+          "acousticness_%": 11
+        }
+      ]
+    },
+    {
+      "name": "DJ 900",
+      "total_streams": 11956641,
+      "songs": [
+        {
+          "artist": "DJ 900",
+          "feat": "Mc Pedrinho",
+          "track_name": "Gol Bolinha, Gol Quadrado 2",
+          "streams": 11956641,
+          "bpm": 133,
+          "valence_%": 68,
+          "energy_%": 65,
+          "danceability_%": 93,
+          "speechiness_%": 25,
+          "acousticness_%": 42
+        }
+      ]
+    },
+    {
+      "name": "TAEYANG",
+      "total_streams": 229760939,
+      "songs": [
+        {
+          "artist": "TAEYANG",
+          "feat": "Lisa",
+          "track_name": "Shoong! (feat. LISA of BLACKPINK)",
+          "streams": 76910644,
+          "bpm": 110,
+          "valence_%": 26,
+          "energy_%": 70,
+          "danceability_%": 76,
+          "speechiness_%": 6,
+          "acousticness_%": 1
+        },
+        {
+          "artist": "TAEYANG",
+          "feat": "Jimin",
+          "track_name": "VIBE (feat. Jimin of BTS)",
+          "streams": 152850295,
+          "bpm": 100,
+          "valence_%": 60,
+          "energy_%": 68,
+          "danceability_%": 79,
+          "speechiness_%": 4,
+          "acousticness_%": 7
+        }
+      ]
+    },
+    {
+      "name": "Colde",
+      "total_streams": 34502215,
+      "songs": [
+        {
+          "artist": "Colde",
+          "feat": "RM",
+          "track_name": "Don't ever say love me (feat. RM of BTS)",
+          "streams": 34502215,
+          "bpm": 145,
+          "valence_%": 19,
+          "energy_%": 48,
+          "danceability_%": 54,
+          "speechiness_%": 5,
+          "acousticness_%": 36
+        }
+      ]
+    },
+    {
+      "name": "Rauw Alejandro",
+      "total_streams": 479094333,
+      "songs": [
+        {
+          "artist": "Rauw Alejandro",
+          "feat": "ROSALï¿½",
+          "track_name": "BESO",
+          "streams": 357925728,
+          "bpm": 95,
+          "valence_%": 53,
+          "energy_%": 64,
+          "danceability_%": 77,
+          "speechiness_%": 14,
+          "acousticness_%": 74
+        },
+        {
+          "artist": "Rauw Alejandro",
+          "feat": "Bizarrap",
+          "track_name": "BABY HELLO",
+          "streams": 54266102,
+          "bpm": 130,
+          "valence_%": 84,
+          "energy_%": 89,
+          "danceability_%": 77,
+          "speechiness_%": 5,
+          "acousticness_%": 17
+        },
+        {
+          "artist": "Rauw Alejandro",
+          "feat": "Bizarrap",
+          "track_name": "Rauw Alejandro: Bzrp Music Sessions, Vol. 56",
+          "streams": 66902503,
+          "bpm": 128,
+          "valence_%": 59,
+          "energy_%": 65,
+          "danceability_%": 78,
+          "speechiness_%": 5,
+          "acousticness_%": 10
+        }
+      ]
+    },
+    {
+      "name": "Sean Paul",
+      "total_streams": 115010040,
+      "songs": [
+        {
+          "artist": "Sean Paul",
+          "feat": "Feid",
+          "track_name": "Niï¿½ï¿½a Bo",
+          "streams": 115010040,
+          "bpm": 91,
+          "valence_%": 47,
+          "energy_%": 62,
+          "danceability_%": 82,
+          "speechiness_%": 15,
+          "acousticness_%": 10
+        }
+      ]
+    },
+    {
+      "name": "Lil Durk",
+      "total_streams": 190630817,
+      "songs": [
+        {
+          "artist": "Lil Durk",
+          "feat": "J. Cole",
+          "track_name": "All My Life (feat. J. Cole)",
+          "streams": 144565150,
+          "bpm": 143,
+          "valence_%": 69,
+          "energy_%": 44,
+          "danceability_%": 83,
+          "speechiness_%": 33,
+          "acousticness_%": 15
+        },
+        {
+          "artist": "Lil Durk",
+          "feat": "Morgan Wallen",
+          "track_name": "Stand By Me (feat. Morgan Wallen)",
+          "streams": 46065667,
+          "bpm": 134,
+          "valence_%": 61,
+          "energy_%": 58,
+          "danceability_%": 76,
+          "speechiness_%": 3,
+          "acousticness_%": 6
+        }
+      ]
+    },
+    {
+      "name": "Nile Rodgers",
+      "total_streams": 92035115,
+      "songs": [
+        {
+          "artist": "Nile Rodgers",
+          "feat": "LE SSERAFIM",
+          "track_name": "UNFORGIVEN (feat. Nile Rodgers)",
+          "streams": 92035115,
+          "bpm": 104,
+          "valence_%": 38,
+          "energy_%": 88,
+          "danceability_%": 80,
+          "speechiness_%": 5,
+          "acousticness_%": 11
+        }
+      ]
+    },
+    {
+      "name": "IU",
+      "total_streams": 95816024,
+      "songs": [
+        {
+          "artist": "IU",
+          "feat": "Agust D",
+          "track_name": "People Pt.2 (feat. IU)",
+          "streams": 95816024,
+          "bpm": 89,
+          "valence_%": 44,
+          "energy_%": 57,
+          "danceability_%": 73,
+          "speechiness_%": 6,
+          "acousticness_%": 39
+        }
+      ]
+    },
+    {
+      "name": "PinkPantheress",
+      "total_streams": 156338624,
+      "songs": [
+        {
+          "artist": "PinkPantheress",
+          "feat": "Ice Spice",
+          "track_name": "Boy's a liar Pt. 2",
+          "streams": 156338624,
+          "bpm": 133,
+          "valence_%": 86,
+          "energy_%": 81,
+          "danceability_%": 70,
+          "speechiness_%": 5,
+          "acousticness_%": 25
+        }
+      ]
     },
     {
       "name": "Central Cee",
-      "total_streams": 183706234
+      "total_streams": 183706234,
+      "songs": [
+        {
+          "artist": "Central Cee",
+          "feat": "Dave",
+          "track_name": "Sprinter",
+          "streams": 183706234,
+          "bpm": 141,
+          "valence_%": 66,
+          "energy_%": 58,
+          "danceability_%": 92,
+          "speechiness_%": 24,
+          "acousticness_%": 19
+        }
+      ]
     },
     {
-      "name": "Taylor Swift",
-      "total_streams": 106493310
+      "name": "Lana Del Rey",
+      "total_streams": 60350538,
+      "songs": [
+        {
+          "artist": "Lana Del Rey",
+          "feat": "Taylor Swift",
+          "track_name": "Snow On The Beach (feat. More Lana Del Rey)",
+          "streams": 60350538,
+          "bpm": 110,
+          "valence_%": 32,
+          "energy_%": 40,
+          "danceability_%": 66,
+          "speechiness_%": 3,
+          "acousticness_%": 81
+        }
+      ]
     },
     {
-      "name": "The Weeknd",
-      "total_streams": 614925385
+      "name": "LE SSERAFIM",
+      "total_streams": 92035115,
+      "songs": [
+        {
+          "artist": "LE SSERAFIM",
+          "feat": "Nile Rodgers",
+          "track_name": "UNFORGIVEN (feat. Nile Rodgers)",
+          "streams": 92035115,
+          "bpm": 104,
+          "valence_%": 38,
+          "energy_%": 88,
+          "danceability_%": 80,
+          "speechiness_%": 5,
+          "acousticness_%": 11
+        }
+      ]
     },
     {
-      "name": "KayBlack",
-      "total_streams": 71573339
+      "name": "Gorillaz",
+      "total_streams": 149778242,
+      "songs": [
+        {
+          "artist": "Gorillaz",
+          "feat": "Bad Bunny",
+          "track_name": "Tormenta (feat. Bad Bunny)",
+          "streams": 149778242,
+          "bpm": 95,
+          "valence_%": 30,
+          "energy_%": 77,
+          "danceability_%": 64,
+          "speechiness_%": 6,
+          "acousticness_%": 46
+        }
+      ]
     },
     {
-      "name": "Cartel De Santa",
-      "total_streams": 162887075
+      "name": "MC Kevin o Chris",
+      "total_streams": 111947664,
+      "songs": [
+        {
+          "artist": "MC Kevin o Chris",
+          "feat": "dennis",
+          "track_name": "Tï¿½ï¿",
+          "streams": 111947664,
+          "bpm": 130,
+          "valence_%": 59,
+          "energy_%": 96,
+          "danceability_%": 86,
+          "speechiness_%": 5,
+          "acousticness_%": 50
+        }
+      ]
     },
     {
-      "name": "Beyoncï¿",
-      "total_streams": 57089066
+      "name": "Metro Boomin",
+      "total_streams": 109773220,
+      "songs": [
+        {
+          "artist": "Metro Boomin",
+          "feat": "Coi Leray",
+          "track_name": "Self Love (Spider-Man: Across the Spider-Verse) (Metro Boomin & Coi Leray)",
+          "streams": 70106975,
+          "bpm": 120,
+          "valence_%": 5,
+          "energy_%": 30,
+          "danceability_%": 78,
+          "speechiness_%": 5,
+          "acousticness_%": 21
+        },
+        {
+          "artist": "Metro Boomin",
+          "feat": "James Blake",
+          "track_name": "Hummingbird (Metro Boomin & James Blake)",
+          "streams": 39666245,
+          "bpm": 81,
+          "valence_%": 26,
+          "energy_%": 60,
+          "danceability_%": 59,
+          "speechiness_%": 13,
+          "acousticness_%": 46
+        }
+      ]
     },
     {
-      "name": "J. Cole",
-      "total_streams": 261164940
+      "name": "PR1ISVX",
+      "total_streams": 77377503,
+      "songs": [
+        {
+          "artist": "PR1ISVX",
+          "feat": "Kanii",
+          "track_name": "I Know - PR1SVX Edit",
+          "streams": 77377503,
+          "bpm": 134,
+          "valence_%": 11,
+          "energy_%": 76,
+          "danceability_%": 67,
+          "speechiness_%": 7,
+          "acousticness_%": 8
+        }
+      ]
     },
     {
-      "name": "Coi Leray",
-      "total_streams": 70106975
+      "name": "James Blake",
+      "total_streams": 39666245,
+      "songs": [
+        {
+          "artist": "James Blake",
+          "feat": "Metro Boomin",
+          "track_name": "Hummingbird (Metro Boomin & James Blake)",
+          "streams": 39666245,
+          "bpm": 81,
+          "valence_%": 26,
+          "energy_%": 60,
+          "danceability_%": 59,
+          "speechiness_%": 13,
+          "acousticness_%": 46
+        }
+      ]
     },
     {
       "name": "Quevedo",
-      "total_streams": 154544614
+      "total_streams": 154544614,
+      "songs": [
+        {
+          "artist": "Quevedo",
+          "feat": "Jhayco",
+          "track_name": "Mami Chula",
+          "streams": 61105704,
+          "bpm": 120,
+          "valence_%": 33,
+          "energy_%": 70,
+          "danceability_%": 80,
+          "speechiness_%": 4,
+          "acousticness_%": 22
+        },
+        {
+          "artist": "Quevedo",
+          "feat": "Karol G",
+          "track_name": "PERO Tï¿",
+          "streams": 93438910,
+          "bpm": 140,
+          "valence_%": 68,
+          "energy_%": 79,
+          "danceability_%": 86,
+          "speechiness_%": 29,
+          "acousticness_%": 39
+        }
+      ]
+    },
+    {
+      "name": "JID",
+      "total_streams": 24975653,
+      "songs": [
+        {
+          "artist": "JID",
+          "feat": "Offset",
+          "track_name": "Danger (Spider) (Offset & JID)",
+          "streams": 24975653,
+          "bpm": 143,
+          "valence_%": 25,
+          "energy_%": 69,
+          "danceability_%": 83,
+          "speechiness_%": 12,
+          "acousticness_%": 4
+        }
+      ]
+    },
+    {
+      "name": "La Kelly",
+      "total_streams": 162887075,
+      "songs": [
+        {
+          "artist": "La Kelly",
+          "feat": "Cartel De Santa",
+          "track_name": "Shorty Party",
+          "streams": 162887075,
+          "bpm": 96,
+          "valence_%": 47,
+          "energy_%": 47,
+          "danceability_%": 93,
+          "speechiness_%": 36,
+          "acousticness_%": 33
+        }
+      ]
+    },
+    {
+      "name": "Morgan Wallen",
+      "total_streams": 104956598,
+      "songs": [
+        {
+          "artist": "Morgan Wallen",
+          "feat": "Lil Durk",
+          "track_name": "Stand By Me (feat. Morgan Wallen)",
+          "streams": 46065667,
+          "bpm": 134,
+          "valence_%": 61,
+          "energy_%": 58,
+          "danceability_%": 76,
+          "speechiness_%": 3,
+          "acousticness_%": 6
+        },
+        {
+          "artist": "Morgan Wallen",
+          "feat": "Eric Church",
+          "track_name": "Man Made A Bar (feat. Eric Church)",
+          "streams": 58890931,
+          "bpm": 148,
+          "valence_%": 49,
+          "energy_%": 76,
+          "danceability_%": 50,
+          "speechiness_%": 3,
+          "acousticness_%": 12
+        }
+      ]
+    },
+    {
+      "name": "MC Caverinha",
+      "total_streams": 71573339,
+      "songs": [
+        {
+          "artist": "MC Caverinha",
+          "feat": "KayBlack",
+          "track_name": "Cartï¿½ï¿½o B",
+          "streams": 71573339,
+          "bpm": 108,
+          "valence_%": 55,
+          "energy_%": 47,
+          "danceability_%": 84,
+          "speechiness_%": 64,
+          "acousticness_%": 26
+        }
+      ]
+    },
+    {
+      "name": "Ana Castela",
+      "total_streams": 233801632,
+      "songs": [
+        {
+          "artist": "Ana Castela",
+          "feat": "AgroPlay",
+          "track_name": "Nosso Quadro",
+          "streams": 233801632,
+          "bpm": 160,
+          "valence_%": 61,
+          "energy_%": 71,
+          "danceability_%": 69,
+          "speechiness_%": 20,
+          "acousticness_%": 33
+        }
+      ]
+    },
+    {
+      "name": "Calvin Harris",
+      "total_streams": 211050784,
+      "songs": [
+        {
+          "artist": "Calvin Harris",
+          "feat": "Ellie Goulding",
+          "track_name": "Miracle (with Ellie Goulding)",
+          "streams": 211050784,
+          "bpm": 143,
+          "valence_%": 31,
+          "energy_%": 87,
+          "danceability_%": 64,
+          "speechiness_%": 4,
+          "acousticness_%": 4
+        }
+      ]
+    },
+    {
+      "name": "KayBlack",
+      "total_streams": 71573339,
+      "songs": [
+        {
+          "artist": "KayBlack",
+          "feat": "MC Caverinha",
+          "track_name": "Cartï¿½ï¿½o B",
+          "streams": 71573339,
+          "bpm": 108,
+          "valence_%": 55,
+          "energy_%": 47,
+          "danceability_%": 84,
+          "speechiness_%": 64,
+          "acousticness_%": 26
+        }
+      ]
+    },
+    {
+      "name": "Romeo Santos",
+      "total_streams": 266624541,
+      "songs": [
+        {
+          "artist": "Romeo Santos",
+          "feat": "Karol G",
+          "track_name": "X SI VOLVEMOS",
+          "streams": 266624541,
+          "bpm": 178,
+          "valence_%": 58,
+          "energy_%": 78,
+          "danceability_%": 79,
+          "speechiness_%": 25,
+          "acousticness_%": 34
+        }
+      ]
+    },
+    {
+      "name": "Agust D",
+      "total_streams": 95816024,
+      "songs": [
+        {
+          "artist": "Agust D",
+          "feat": "IU",
+          "track_name": "People Pt.2 (feat. IU)",
+          "streams": 95816024,
+          "bpm": 89,
+          "valence_%": 44,
+          "energy_%": 57,
+          "danceability_%": 73,
+          "speechiness_%": 6,
+          "acousticness_%": 39
+        }
+      ]
+    },
+    {
+      "name": "The Weeknd",
+      "total_streams": 614925385,
+      "songs": [
+        {
+          "artist": "The Weeknd",
+          "feat": "Ariana Grande",
+          "track_name": "Die For You - Remix",
+          "streams": 518745108,
+          "bpm": 67,
+          "valence_%": 50,
+          "energy_%": 53,
+          "danceability_%": 53,
+          "speechiness_%": 7,
+          "acousticness_%": 23
+        },
+        {
+          "artist": "The Weeknd",
+          "feat": "Future",
+          "track_name": "Double Fantasy (with Future)",
+          "streams": 96180277,
+          "bpm": 119,
+          "valence_%": 10,
+          "energy_%": 57,
+          "danceability_%": 60,
+          "speechiness_%": 3,
+          "acousticness_%": 1
+        }
+      ]
+    },
+    {
+      "name": "Kaliii",
+      "total_streams": 227018992,
+      "songs": [
+        {
+          "artist": "Kaliii",
+          "feat": "Kaliii",
+          "track_name": "Area Codes",
+          "streams": 113509496,
+          "bpm": 155,
+          "valence_%": 51,
+          "energy_%": 39,
+          "danceability_%": 82,
+          "speechiness_%": 49,
+          "acousticness_%": 2
+        },
+        {
+          "artist": "Kaliii",
+          "feat": "Kaliii",
+          "track_name": "Area Codes",
+          "streams": 113509496,
+          "bpm": 155,
+          "valence_%": 51,
+          "energy_%": 39,
+          "danceability_%": 82,
+          "speechiness_%": 49,
+          "acousticness_%": 2
+        }
+      ]
+    },
+    {
+      "name": "Yng Lvcas",
+      "total_streams": 553634067,
+      "songs": [
+        {
+          "artist": "Yng Lvcas",
+          "feat": "Peso Pluma",
+          "track_name": "La Bebe - Remix",
+          "streams": 553634067,
+          "bpm": 170,
+          "valence_%": 56,
+          "energy_%": 48,
+          "danceability_%": 81,
+          "speechiness_%": 33,
+          "acousticness_%": 21
+        }
+      ]
+    },
+    {
+      "name": "Junior H",
+      "total_streams": 807641030,
+      "songs": [
+        {
+          "artist": "Junior H",
+          "feat": "Peso Pluma",
+          "track_name": "El Azul",
+          "streams": 354495408,
+          "bpm": 144,
+          "valence_%": 84,
+          "energy_%": 65,
+          "danceability_%": 56,
+          "speechiness_%": 6,
+          "acousticness_%": 23
+        },
+        {
+          "artist": "Junior H",
+          "feat": "Peso Pluma",
+          "track_name": "LUNA",
+          "streams": 55842345,
+          "bpm": 128,
+          "valence_%": 79,
+          "energy_%": 63,
+          "danceability_%": 75,
+          "speechiness_%": 4,
+          "acousticness_%": 33
+        },
+        {
+          "artist": "Junior H",
+          "feat": "Oscar Maydon",
+          "track_name": "Fin de Semana",
+          "streams": 307370144,
+          "bpm": 98,
+          "valence_%": 37,
+          "energy_%": 54,
+          "danceability_%": 70,
+          "speechiness_%": 8,
+          "acousticness_%": 6
+        },
+        {
+          "artist": "Junior H",
+          "feat": "Eden Muï¿½ï",
+          "track_name": "Abcdario",
+          "streams": 89933133,
+          "bpm": 129,
+          "valence_%": 42,
+          "energy_%": 43,
+          "danceability_%": 70,
+          "speechiness_%": 3,
+          "acousticness_%": 78
+        }
+      ]
+    },
+    {
+      "name": "Young Miko",
+      "total_streams": 335222234,
+      "songs": [
+        {
+          "artist": "Young Miko",
+          "feat": "Feid",
+          "track_name": "Classy 101",
+          "streams": 335222234,
+          "bpm": 100,
+          "valence_%": 67,
+          "energy_%": 66,
+          "danceability_%": 86,
+          "speechiness_%": 16,
+          "acousticness_%": 14
+        }
+      ]
+    },
+    {
+      "name": "Eslabon Armado",
+      "total_streams": 725980112,
+      "songs": [
+        {
+          "artist": "Eslabon Armado",
+          "feat": "Peso Pluma",
+          "track_name": "Ella Baila Sola",
+          "streams": 725980112,
+          "bpm": 148,
+          "valence_%": 83,
+          "energy_%": 76,
+          "danceability_%": 67,
+          "speechiness_%": 3,
+          "acousticness_%": 48
+        }
+      ]
+    },
+    {
+      "name": "Milo j",
+      "total_streams": 248088961,
+      "songs": [
+        {
+          "artist": "Milo j",
+          "feat": "Taiu",
+          "track_name": "Rara Vez",
+          "streams": 248088961,
+          "bpm": 120,
+          "valence_%": 96,
+          "energy_%": 71,
+          "danceability_%": 84,
+          "speechiness_%": 17,
+          "acousticness_%": 18
+        }
+      ]
+    },
+    {
+      "name": "Jasiel Nuï¿½ï¿½ez",
+      "total_streams": 129083819,
+      "songs": [
+        {
+          "artist": "Jasiel Nuï¿½ï¿½ez",
+          "feat": "Peso P",
+          "track_name": "LAGUNAS",
+          "streams": 39058561,
+          "bpm": 116,
+          "valence_%": 79,
+          "energy_%": 62,
+          "danceability_%": 77,
+          "speechiness_%": 3,
+          "acousticness_%": 33
+        },
+        {
+          "artist": "Jasiel Nuï¿½ï¿½ez",
+          "feat": "Peso P",
+          "track_name": "Rosa Pastel",
+          "streams": 90025258,
+          "bpm": 123,
+          "valence_%": 86,
+          "energy_%": 68,
+          "danceability_%": 70,
+          "speechiness_%": 4,
+          "acousticness_%": 24
+        }
+      ]
+    },
+    {
+      "name": "Grupo Marca Registrada",
+      "total_streams": 147290338,
+      "songs": [
+        {
+          "artist": "Grupo Marca Registrada",
+          "feat": "Grupo Frontera",
+          "track_name": "Di Que Si",
+          "streams": 147290338,
+          "bpm": 182,
+          "valence_%": 80,
+          "energy_%": 59,
+          "danceability_%": 57,
+          "speechiness_%": 5,
+          "acousticness_%": 8
+        }
+      ]
+    },
+    {
+      "name": "j-hope",
+      "total_streams": 116599790,
+      "songs": [
+        {
+          "artist": "j-hope",
+          "feat": "J. Cole",
+          "track_name": "on the street (with J. Cole)",
+          "streams": 116599790,
+          "bpm": 94,
+          "valence_%": 81,
+          "energy_%": 82,
+          "danceability_%": 68,
+          "speechiness_%": 13,
+          "acousticness_%": 53
+        }
+      ]
+    },
+    {
+      "name": "Taylor Swift",
+      "total_streams": 106493310,
+      "songs": [
+        {
+          "artist": "Taylor Swift",
+          "feat": "Ice Spice",
+          "track_name": "Karma (feat. Ice Spice)",
+          "streams": 46142772,
+          "bpm": 90,
+          "valence_%": 7,
+          "energy_%": 62,
+          "danceability_%": 62,
+          "speechiness_%": 6,
+          "acousticness_%": 6
+        },
+        {
+          "artist": "Taylor Swift",
+          "feat": "Lana Del Rey",
+          "track_name": "Snow On The Beach (feat. More Lana Del Rey)",
+          "streams": 60350538,
+          "bpm": 110,
+          "valence_%": 32,
+          "energy_%": 40,
+          "danceability_%": 66,
+          "speechiness_%": 3,
+          "acousticness_%": 81
+        }
+      ]
+    },
+    {
+      "name": "Suga",
+      "total_streams": 51985779,
+      "songs": [
+        {
+          "artist": "Suga",
+          "feat": "Halsey",
+          "track_name": "Lilith (feat. SUGA of BTS) (Diablo IV Anthem)",
+          "streams": 51985779,
+          "bpm": 84,
+          "valence_%": 14,
+          "energy_%": 74,
+          "danceability_%": 43,
+          "speechiness_%": 8,
+          "acousticness_%": 1
+        }
+      ]
+    },
+    {
+      "name": "Oscar Maydon",
+      "total_streams": 307370144,
+      "songs": [
+        {
+          "artist": "Oscar Maydon",
+          "feat": "Junior H",
+          "track_name": "Fin de Semana",
+          "streams": 307370144,
+          "bpm": 98,
+          "valence_%": 37,
+          "energy_%": 54,
+          "danceability_%": 70,
+          "speechiness_%": 8,
+          "acousticness_%": 6
+        }
+      ]
+    },
+    {
+      "name": "Kanii",
+      "total_streams": 77377503,
+      "songs": [
+        {
+          "artist": "Kanii",
+          "feat": "PR1ISVX",
+          "track_name": "I Know - PR1SVX Edit",
+          "streams": 77377503,
+          "bpm": 134,
+          "valence_%": 11,
+          "energy_%": 76,
+          "danceability_%": 67,
+          "speechiness_%": 7,
+          "acousticness_%": 8
+        }
+      ]
+    },
+    {
+      "name": "Dave",
+      "total_streams": 183706234,
+      "songs": [
+        {
+          "artist": "Dave",
+          "feat": "Central Cee",
+          "track_name": "Sprinter",
+          "streams": 183706234,
+          "bpm": 141,
+          "valence_%": 66,
+          "energy_%": 58,
+          "danceability_%": 92,
+          "speechiness_%": 24,
+          "acousticness_%": 19
+        }
+      ]
+    },
+    {
+      "name": "Fuerza Regida",
+      "total_streams": 116334601,
+      "songs": [
+        {
+          "artist": "Fuerza Regida",
+          "feat": "Chino Pacas",
+          "track_name": "Dijeron Que No La Iba Lograr",
+          "streams": 116334601,
+          "bpm": 142,
+          "valence_%": 76,
+          "energy_%": 79,
+          "danceability_%": 70,
+          "speechiness_%": 7,
+          "acousticness_%": 26
+        }
+      ]
+    },
+    {
+      "name": "Peso Pluma",
+      "total_streams": 2667408907,
+      "songs": [
+        {
+          "artist": "Peso Pluma",
+          "feat": "Eslabon Armado",
+          "track_name": "Ella Baila Sola",
+          "streams": 725980112,
+          "bpm": 148,
+          "valence_%": 83,
+          "energy_%": 76,
+          "danceability_%": 67,
+          "speechiness_%": 3,
+          "acousticness_%": 48
+        },
+        {
+          "artist": "Peso Pluma",
+          "feat": "Yng Lvcas",
+          "track_name": "La Bebe - Remix",
+          "streams": 553634067,
+          "bpm": 170,
+          "valence_%": 56,
+          "energy_%": 48,
+          "danceability_%": 81,
+          "speechiness_%": 33,
+          "acousticness_%": 21
+        },
+        {
+          "artist": "Peso Pluma",
+          "feat": "Bizarrap",
+          "track_name": "Peso Pluma: Bzrp Music Sessions, Vol. 55",
+          "streams": 200647221,
+          "bpm": 133,
+          "valence_%": 81,
+          "energy_%": 67,
+          "danceability_%": 85,
+          "speechiness_%": 5,
+          "acousticness_%": 26
+        },
+        {
+          "artist": "Peso Pluma",
+          "feat": "Grupo Frontera",
+          "track_name": "TULUM",
+          "streams": 52294266,
+          "bpm": 168,
+          "valence_%": 63,
+          "energy_%": 87,
+          "danceability_%": 56,
+          "speechiness_%": 5,
+          "acousticness_%": 39
+        },
+        {
+          "artist": "Peso Pluma",
+          "feat": "Junior H",
+          "track_name": "El Azul",
+          "streams": 354495408,
+          "bpm": 144,
+          "valence_%": 84,
+          "energy_%": 65,
+          "danceability_%": 56,
+          "speechiness_%": 6,
+          "acousticness_%": 23
+        },
+        {
+          "artist": "Peso Pluma",
+          "feat": "Junior H",
+          "track_name": "LUNA",
+          "streams": 55842345,
+          "bpm": 128,
+          "valence_%": 79,
+          "energy_%": 63,
+          "danceability_%": 75,
+          "speechiness_%": 4,
+          "acousticness_%": 33
+        },
+        {
+          "artist": "Peso Pluma",
+          "feat": "Natanael Cano",
+          "track_name": "PRC",
+          "streams": 436027885,
+          "bpm": 138,
+          "valence_%": 89,
+          "energy_%": 83,
+          "danceability_%": 78,
+          "speechiness_%": 5,
+          "acousticness_%": 10
+        },
+        {
+          "artist": "Peso Pluma",
+          "feat": "Becky G",
+          "track_name": "Chanel",
+          "streams": 161460990,
+          "bpm": 132,
+          "valence_%": 53,
+          "energy_%": 68,
+          "danceability_%": 85,
+          "speechiness_%": 4,
+          "acousticness_%": 40
+        },
+        {
+          "artist": "Peso Pluma",
+          "feat": "BLESSD",
+          "track_name": "Las Morras",
+          "streams": 127026613,
+          "bpm": 133,
+          "valence_%": 90,
+          "energy_%": 84,
+          "danceability_%": 78,
+          "speechiness_%": 4,
+          "acousticness_%": 31
+        }
+      ]
+    },
+    {
+      "name": "Kendrick Lamar",
+      "total_streams": 57089066,
+      "songs": [
+        {
+          "artist": "Kendrick Lamar",
+          "feat": "Beyoncï¿",
+          "track_name": "AMERICA HAS A PROBLEM (feat. Kendrick Lamar)",
+          "streams": 57089066,
+          "bpm": 126,
+          "valence_%": 20,
+          "energy_%": 70,
+          "danceability_%": 78,
+          "speechiness_%": 4,
+          "acousticness_%": 1
+        }
+      ]
+    },
+    {
+      "name": "Rich The Kid",
+      "total_streams": 77233241,
+      "songs": [
+        {
+          "artist": "Rich The Kid",
+          "feat": "Matuï¿",
+          "track_name": "Conexï¿½ï¿½es de Mï¿½ï¿½fia (feat. Rich ",
+          "streams": 77233241,
+          "bpm": 117,
+          "valence_%": 69,
+          "energy_%": 58,
+          "danceability_%": 77,
+          "speechiness_%": 5,
+          "acousticness_%": 39
+        }
+      ]
+    },
+    {
+      "name": "Beyoncï¿",
+      "total_streams": 57089066,
+      "songs": [
+        {
+          "artist": "Beyoncï¿",
+          "feat": "Kendrick Lamar",
+          "track_name": "AMERICA HAS A PROBLEM (feat. Kendrick Lamar)",
+          "streams": 57089066,
+          "bpm": 126,
+          "valence_%": 20,
+          "energy_%": 70,
+          "danceability_%": 78,
+          "speechiness_%": 4,
+          "acousticness_%": 1
+        }
+      ]
+    },
+    {
+      "name": "Bad Bunny",
+      "total_streams": 967000217,
+      "songs": [
+        {
+          "artist": "Bad Bunny",
+          "feat": "Grupo Frontera",
+          "track_name": "un x100to",
+          "streams": 505671438,
+          "bpm": 83,
+          "valence_%": 56,
+          "energy_%": 72,
+          "danceability_%": 57,
+          "speechiness_%": 5,
+          "acousticness_%": 23
+        },
+        {
+          "artist": "Bad Bunny",
+          "feat": "Tainy",
+          "track_name": "MOJABI GHOST",
+          "streams": 61245289,
+          "bpm": 122,
+          "valence_%": 74,
+          "energy_%": 71,
+          "danceability_%": 81,
+          "speechiness_%": 4,
+          "acousticness_%": 14
+        },
+        {
+          "artist": "Bad Bunny",
+          "feat": "Eladio Carrion",
+          "track_name": "Coco Chanel",
+          "streams": 250305248,
+          "bpm": 150,
+          "valence_%": 14,
+          "energy_%": 76,
+          "danceability_%": 68,
+          "speechiness_%": 4,
+          "acousticness_%": 4
+        },
+        {
+          "artist": "Bad Bunny",
+          "feat": "Gorillaz",
+          "track_name": "Tormenta (feat. Bad Bunny)",
+          "streams": 149778242,
+          "bpm": 95,
+          "valence_%": 30,
+          "energy_%": 77,
+          "danceability_%": 64,
+          "speechiness_%": 6,
+          "acousticness_%": 46
+        }
+      ]
+    },
+    {
+      "name": "Ice Spice",
+      "total_streams": 307474342,
+      "songs": [
+        {
+          "artist": "Ice Spice",
+          "feat": "PinkPantheress",
+          "track_name": "Boy's a liar Pt. 2",
+          "streams": 156338624,
+          "bpm": 133,
+          "valence_%": 86,
+          "energy_%": 81,
+          "danceability_%": 70,
+          "speechiness_%": 5,
+          "acousticness_%": 25
+        },
+        {
+          "artist": "Ice Spice",
+          "feat": "Taylor Swift",
+          "track_name": "Karma (feat. Ice Spice)",
+          "streams": 46142772,
+          "bpm": 90,
+          "valence_%": 7,
+          "energy_%": 62,
+          "danceability_%": 62,
+          "speechiness_%": 6,
+          "acousticness_%": 6
+        },
+        {
+          "artist": "Ice Spice",
+          "feat": "Nicki Minaj",
+          "track_name": "Princess Diana (with Nicki Minaj)",
+          "streams": 104992946,
+          "bpm": 148,
+          "valence_%": 74,
+          "energy_%": 68,
+          "danceability_%": 90,
+          "speechiness_%": 19,
+          "acousticness_%": 14
+        }
+      ]
+    },
+    {
+      "name": "Future",
+      "total_streams": 96180277,
+      "songs": [
+        {
+          "artist": "Future",
+          "feat": "The Weeknd",
+          "track_name": "Double Fantasy (with Future)",
+          "streams": 96180277,
+          "bpm": 119,
+          "valence_%": 10,
+          "energy_%": 57,
+          "danceability_%": 60,
+          "speechiness_%": 3,
+          "acousticness_%": 1
+        }
+      ]
+    },
+    {
+      "name": "J. Cole",
+      "total_streams": 261164940,
+      "songs": [
+        {
+          "artist": "J. Cole",
+          "feat": "Lil Durk",
+          "track_name": "All My Life (feat. J. Cole)",
+          "streams": 144565150,
+          "bpm": 143,
+          "valence_%": 69,
+          "energy_%": 44,
+          "danceability_%": 83,
+          "speechiness_%": 33,
+          "acousticness_%": 15
+        },
+        {
+          "artist": "J. Cole",
+          "feat": "j-hope",
+          "track_name": "on the street (with J. Cole)",
+          "streams": 116599790,
+          "bpm": 94,
+          "valence_%": 81,
+          "energy_%": 82,
+          "danceability_%": 68,
+          "speechiness_%": 13,
+          "acousticness_%": 53
+        }
+      ]
+    },
+    {
+      "name": "Mc Livinho",
+      "total_streams": 39709092,
+      "songs": [
+        {
+          "artist": "Mc Livinho",
+          "feat": "DJ Matt D",
+          "track_name": "Novidade na ï¿½ï¿",
+          "streams": 39709092,
+          "bpm": 130,
+          "valence_%": 36,
+          "energy_%": 34,
+          "danceability_%": 63,
+          "speechiness_%": 9,
+          "acousticness_%": 76
+        }
+      ]
+    },
+    {
+      "name": "Halsey",
+      "total_streams": 51985779,
+      "songs": [
+        {
+          "artist": "Halsey",
+          "feat": "Suga",
+          "track_name": "Lilith (feat. SUGA of BTS) (Diablo IV Anthem)",
+          "streams": 51985779,
+          "bpm": 84,
+          "valence_%": 14,
+          "energy_%": 74,
+          "danceability_%": 43,
+          "speechiness_%": 8,
+          "acousticness_%": 1
+        }
+      ]
+    },
+    {
+      "name": "Cartel De Santa",
+      "total_streams": 162887075,
+      "songs": [
+        {
+          "artist": "Cartel De Santa",
+          "feat": "La Kelly",
+          "track_name": "Shorty Party",
+          "streams": 162887075,
+          "bpm": 96,
+          "valence_%": 47,
+          "energy_%": 47,
+          "danceability_%": 93,
+          "speechiness_%": 36,
+          "acousticness_%": 33
+        }
+      ]
+    },
+    {
+      "name": "Coi Leray",
+      "total_streams": 70106975,
+      "songs": [
+        {
+          "artist": "Coi Leray",
+          "feat": "Metro Boomin",
+          "track_name": "Self Love (Spider-Man: Across the Spider-Verse) (Metro Boomin & Coi Leray)",
+          "streams": 70106975,
+          "bpm": 120,
+          "valence_%": 5,
+          "energy_%": 30,
+          "danceability_%": 78,
+          "speechiness_%": 5,
+          "acousticness_%": 21
+        }
+      ]
+    },
+    {
+      "name": "ROSALï¿½",
+      "total_streams": 357925728,
+      "songs": [
+        {
+          "artist": "ROSALï¿½",
+          "feat": "Rauw Alejandro",
+          "track_name": "BESO",
+          "streams": 357925728,
+          "bpm": 95,
+          "valence_%": 53,
+          "energy_%": 64,
+          "danceability_%": 77,
+          "speechiness_%": 14,
+          "acousticness_%": 74
+        }
+      ]
+    },
+    {
+      "name": "BLESSD",
+      "total_streams": 127026613,
+      "songs": [
+        {
+          "artist": "BLESSD",
+          "feat": "Peso Pluma",
+          "track_name": "Las Morras",
+          "streams": 127026613,
+          "bpm": 133,
+          "valence_%": 90,
+          "energy_%": 84,
+          "danceability_%": 78,
+          "speechiness_%": 4,
+          "acousticness_%": 31
+        }
+      ]
+    },
+    {
+      "name": "Offset",
+      "total_streams": 24975653,
+      "songs": [
+        {
+          "artist": "Offset",
+          "feat": "JID",
+          "track_name": "Danger (Spider) (Offset & JID)",
+          "streams": 24975653,
+          "bpm": 143,
+          "valence_%": 25,
+          "energy_%": 69,
+          "danceability_%": 83,
+          "speechiness_%": 12,
+          "acousticness_%": 4
+        }
+      ]
     },
     {
       "name": "Mc Pedrinho",
-      "total_streams": 11956641
+      "total_streams": 11956641,
+      "songs": [
+        {
+          "artist": "Mc Pedrinho",
+          "feat": "DJ 900",
+          "track_name": "Gol Bolinha, Gol Quadrado 2",
+          "streams": 11956641,
+          "bpm": 133,
+          "valence_%": 68,
+          "energy_%": 65,
+          "danceability_%": 93,
+          "speechiness_%": 25,
+          "acousticness_%": 42
+        }
+      ]
+    },
+    {
+      "name": "Jhayco",
+      "total_streams": 61105704,
+      "songs": [
+        {
+          "artist": "Jhayco",
+          "feat": "Quevedo",
+          "track_name": "Mami Chula",
+          "streams": 61105704,
+          "bpm": 120,
+          "valence_%": 33,
+          "energy_%": 70,
+          "danceability_%": 80,
+          "speechiness_%": 4,
+          "acousticness_%": 22
+        }
+      ]
+    },
+    {
+      "name": "Yahritza Y Su Esencia",
+      "total_streams": 188933502,
+      "songs": [
+        {
+          "artist": "Yahritza Y Su Esencia",
+          "feat": "Grupo Frontera",
+          "track_name": "Frï¿½ï¿½gil (feat. Grupo Front",
+          "streams": 188933502,
+          "bpm": 150,
+          "valence_%": 39,
+          "energy_%": 73,
+          "danceability_%": 61,
+          "speechiness_%": 3,
+          "acousticness_%": 37
+        }
+      ]
+    },
+    {
+      "name": "DJ Matt D",
+      "total_streams": 39709092,
+      "songs": [
+        {
+          "artist": "DJ Matt D",
+          "feat": "Mc Livinho",
+          "track_name": "Novidade na ï¿½ï¿",
+          "streams": 39709092,
+          "bpm": 130,
+          "valence_%": 36,
+          "energy_%": 34,
+          "danceability_%": 63,
+          "speechiness_%": 9,
+          "acousticness_%": 76
+        }
+      ]
+    },
+    {
+      "name": "The Creator",
+      "total_streams": 139231626,
+      "songs": [
+        {
+          "artist": "The Creator",
+          "feat": "Tyler",
+          "track_name": "DOGTOOTH",
+          "streams": 80758350,
+          "bpm": 78,
+          "valence_%": 80,
+          "energy_%": 65,
+          "danceability_%": 71,
+          "speechiness_%": 32,
+          "acousticness_%": 51
+        },
+        {
+          "artist": "The Creator",
+          "feat": "Tyler",
+          "track_name": "SORRY NOT SORRY",
+          "streams": 58473276,
+          "bpm": 96,
+          "valence_%": 50,
+          "energy_%": 80,
+          "danceability_%": 48,
+          "speechiness_%": 20,
+          "acousticness_%": 40
+        }
+      ]
+    },
+    {
+      "name": "Ariana Grande",
+      "total_streams": 518745108,
+      "songs": [
+        {
+          "artist": "Ariana Grande",
+          "feat": "The Weeknd",
+          "track_name": "Die For You - Remix",
+          "streams": 518745108,
+          "bpm": 67,
+          "valence_%": 50,
+          "energy_%": 53,
+          "danceability_%": 53,
+          "speechiness_%": 7,
+          "acousticness_%": 23
+        }
+      ]
+    },
+    {
+      "name": "AgroPlay",
+      "total_streams": 233801632,
+      "songs": [
+        {
+          "artist": "AgroPlay",
+          "feat": "Ana Castela",
+          "track_name": "Nosso Quadro",
+          "streams": 233801632,
+          "bpm": 160,
+          "valence_%": 61,
+          "energy_%": 71,
+          "danceability_%": 69,
+          "speechiness_%": 20,
+          "acousticness_%": 33
+        }
+      ]
+    },
+    {
+      "name": "Chino Pacas",
+      "total_streams": 116334601,
+      "songs": [
+        {
+          "artist": "Chino Pacas",
+          "feat": "Fuerza Regida",
+          "track_name": "Dijeron Que No La Iba Lograr",
+          "streams": 116334601,
+          "bpm": 142,
+          "valence_%": 76,
+          "energy_%": 79,
+          "danceability_%": 70,
+          "speechiness_%": 7,
+          "acousticness_%": 26
+        }
+      ]
+    },
+    {
+      "name": "Mari Fernandez",
+      "total_streams": 138517666,
+      "songs": [
+        {
+          "artist": "Mari Fernandez",
+          "feat": "Israel & Rodolffo",
+          "track_name": "Seu Brilho Sumiu - Ao Vivo",
+          "streams": 138517666,
+          "bpm": 154,
+          "valence_%": 75,
+          "energy_%": 92,
+          "danceability_%": 63,
+          "speechiness_%": 5,
+          "acousticness_%": 31
+        }
+      ]
+    },
+    {
+      "name": "Lisa",
+      "total_streams": 76910644,
+      "songs": [
+        {
+          "artist": "Lisa",
+          "feat": "TAEYANG",
+          "track_name": "Shoong! (feat. LISA of BLACKPINK)",
+          "streams": 76910644,
+          "bpm": 110,
+          "valence_%": 26,
+          "energy_%": 70,
+          "danceability_%": 76,
+          "speechiness_%": 6,
+          "acousticness_%": 1
+        }
+      ]
+    },
+    {
+      "name": "Grupo Frontera",
+      "total_streams": 894189544,
+      "songs": [
+        {
+          "artist": "Grupo Frontera",
+          "feat": "Bad Bunny",
+          "track_name": "un x100to",
+          "streams": 505671438,
+          "bpm": 83,
+          "valence_%": 56,
+          "energy_%": 72,
+          "danceability_%": 57,
+          "speechiness_%": 5,
+          "acousticness_%": 23
+        },
+        {
+          "artist": "Grupo Frontera",
+          "feat": "Peso Pluma",
+          "track_name": "TULUM",
+          "streams": 52294266,
+          "bpm": 168,
+          "valence_%": 63,
+          "energy_%": 87,
+          "danceability_%": 56,
+          "speechiness_%": 5,
+          "acousticness_%": 39
+        },
+        {
+          "artist": "Grupo Frontera",
+          "feat": "Yahritza Y Su Esencia",
+          "track_name": "Frï¿½ï¿½gil (feat. Grupo Front",
+          "streams": 188933502,
+          "bpm": 150,
+          "valence_%": 39,
+          "energy_%": 73,
+          "danceability_%": 61,
+          "speechiness_%": 3,
+          "acousticness_%": 37
+        },
+        {
+          "artist": "Grupo Frontera",
+          "feat": "Grupo Marca Registrada",
+          "track_name": "Di Que Si",
+          "streams": 147290338,
+          "bpm": 182,
+          "valence_%": 80,
+          "energy_%": 59,
+          "danceability_%": 57,
+          "speechiness_%": 5,
+          "acousticness_%": 8
+        }
+      ]
+    },
+    {
+      "name": "Jimin",
+      "total_streams": 152850295,
+      "songs": [
+        {
+          "artist": "Jimin",
+          "feat": "TAEYANG",
+          "track_name": "VIBE (feat. Jimin of BTS)",
+          "streams": 152850295,
+          "bpm": 100,
+          "valence_%": 60,
+          "energy_%": 68,
+          "danceability_%": 79,
+          "speechiness_%": 4,
+          "acousticness_%": 7
+        }
+      ]
+    },
+    {
+      "name": "Latto",
+      "total_streams": 141381703,
+      "songs": [
+        {
+          "artist": "Latto",
+          "feat": "Jung Kook",
+          "track_name": "Seven (feat. Latto) (Explicit Ver.)",
+          "streams": 141381703,
+          "bpm": 125,
+          "valence_%": 89,
+          "energy_%": 83,
+          "danceability_%": 80,
+          "speechiness_%": 4,
+          "acousticness_%": 31
+        }
+      ]
+    },
+    {
+      "name": "Matuï¿",
+      "total_streams": 77233241,
+      "songs": [
+        {
+          "artist": "Matuï¿",
+          "feat": "Rich The Kid",
+          "track_name": "Conexï¿½ï¿½es de Mï¿½ï¿½fia (feat. Rich ",
+          "streams": 77233241,
+          "bpm": 117,
+          "valence_%": 69,
+          "energy_%": 58,
+          "danceability_%": 77,
+          "speechiness_%": 5,
+          "acousticness_%": 39
+        }
+      ]
+    },
+    {
+      "name": "Arcangel",
+      "total_streams": 100409613,
+      "songs": [
+        {
+          "artist": "Arcangel",
+          "feat": "Bizarrap",
+          "track_name": "Arcï¿½ï¿½ngel: Bzrp Music Sessions, Vol",
+          "streams": 100409613,
+          "bpm": 124,
+          "valence_%": 79,
+          "energy_%": 78,
+          "danceability_%": 72,
+          "speechiness_%": 30,
+          "acousticness_%": 55
+        }
+      ]
+    },
+    {
+      "name": "Tyler",
+      "total_streams": 139231626,
+      "songs": [
+        {
+          "artist": "Tyler",
+          "feat": "The Creator",
+          "track_name": "DOGTOOTH",
+          "streams": 80758350,
+          "bpm": 78,
+          "valence_%": 80,
+          "energy_%": 65,
+          "danceability_%": 71,
+          "speechiness_%": 32,
+          "acousticness_%": 51
+        },
+        {
+          "artist": "Tyler",
+          "feat": "The Creator",
+          "track_name": "SORRY NOT SORRY",
+          "streams": 58473276,
+          "bpm": 96,
+          "valence_%": 50,
+          "energy_%": 80,
+          "danceability_%": 48,
+          "speechiness_%": 20,
+          "acousticness_%": 40
+        }
+      ]
+    },
+    {
+      "name": "dennis",
+      "total_streams": 111947664,
+      "songs": [
+        {
+          "artist": "dennis",
+          "feat": "MC Kevin o Chris",
+          "track_name": "Tï¿½ï¿",
+          "streams": 111947664,
+          "bpm": 130,
+          "valence_%": 59,
+          "energy_%": 96,
+          "danceability_%": 86,
+          "speechiness_%": 5,
+          "acousticness_%": 50
+        }
+      ]
+    },
+    {
+      "name": "RM",
+      "total_streams": 34502215,
+      "songs": [
+        {
+          "artist": "RM",
+          "feat": "Colde",
+          "track_name": "Don't ever say love me (feat. RM of BTS)",
+          "streams": 34502215,
+          "bpm": 145,
+          "valence_%": 19,
+          "energy_%": 48,
+          "danceability_%": 54,
+          "speechiness_%": 5,
+          "acousticness_%": 36
+        }
+      ]
+    },
+    {
+      "name": "Feid",
+      "total_streams": 508178261,
+      "songs": [
+        {
+          "artist": "Feid",
+          "feat": "Young Miko",
+          "track_name": "Classy 101",
+          "streams": 335222234,
+          "bpm": 100,
+          "valence_%": 67,
+          "energy_%": 66,
+          "danceability_%": 86,
+          "speechiness_%": 16,
+          "acousticness_%": 14
+        },
+        {
+          "artist": "Feid",
+          "feat": "Nicky Jam",
+          "track_name": "69",
+          "streams": 57945987,
+          "bpm": 93,
+          "valence_%": 58,
+          "energy_%": 62,
+          "danceability_%": 79,
+          "speechiness_%": 23,
+          "acousticness_%": 11
+        },
+        {
+          "artist": "Feid",
+          "feat": "Sean Paul",
+          "track_name": "Niï¿½ï¿½a Bo",
+          "streams": 115010040,
+          "bpm": 91,
+          "valence_%": 47,
+          "energy_%": 62,
+          "danceability_%": 82,
+          "speechiness_%": 15,
+          "acousticness_%": 10
+        }
+      ]
+    },
+    {
+      "name": "Eladio Carrion",
+      "total_streams": 250305248,
+      "songs": [
+        {
+          "artist": "Eladio Carrion",
+          "feat": "Bad Bunny",
+          "track_name": "Coco Chanel",
+          "streams": 250305248,
+          "bpm": 150,
+          "valence_%": 14,
+          "energy_%": 76,
+          "danceability_%": 68,
+          "speechiness_%": 4,
+          "acousticness_%": 4
+        }
+      ]
+    },
+    {
+      "name": "Natanael Cano",
+      "total_streams": 436027885,
+      "songs": [
+        {
+          "artist": "Natanael Cano",
+          "feat": "Peso Pluma",
+          "track_name": "PRC",
+          "streams": 436027885,
+          "bpm": 138,
+          "valence_%": 89,
+          "energy_%": 83,
+          "danceability_%": 78,
+          "speechiness_%": 5,
+          "acousticness_%": 10
+        }
+      ]
+    },
+    {
+      "name": "Jung Kook",
+      "total_streams": 141381703,
+      "songs": [
+        {
+          "artist": "Jung Kook",
+          "feat": "Latto",
+          "track_name": "Seven (feat. Latto) (Explicit Ver.)",
+          "streams": 141381703,
+          "bpm": 125,
+          "valence_%": 89,
+          "energy_%": 83,
+          "danceability_%": 80,
+          "speechiness_%": 4,
+          "acousticness_%": 31
+        }
+      ]
+    },
+    {
+      "name": "Shakira",
+      "total_streams": 1340965991,
+      "songs": [
+        {
+          "artist": "Shakira",
+          "feat": "Karol G",
+          "track_name": "TQG",
+          "streams": 618990393,
+          "bpm": 180,
+          "valence_%": 61,
+          "energy_%": 63,
+          "danceability_%": 72,
+          "speechiness_%": 28,
+          "acousticness_%": 67
+        },
+        {
+          "artist": "Shakira",
+          "feat": "Bizarrap",
+          "track_name": "Shakira: Bzrp Music Sessions, Vol. 53",
+          "streams": 721975598,
+          "bpm": 122,
+          "valence_%": 50,
+          "energy_%": 63,
+          "danceability_%": 78,
+          "speechiness_%": 5,
+          "acousticness_%": 27
+        }
+      ]
+    },
+    {
+      "name": "Karol G",
+      "total_streams": 979053844,
+      "songs": [
+        {
+          "artist": "Karol G",
+          "feat": "Shakira",
+          "track_name": "TQG",
+          "streams": 618990393,
+          "bpm": 180,
+          "valence_%": 61,
+          "energy_%": 63,
+          "danceability_%": 72,
+          "speechiness_%": 28,
+          "acousticness_%": 67
+        },
+        {
+          "artist": "Karol G",
+          "feat": "Romeo Santos",
+          "track_name": "X SI VOLVEMOS",
+          "streams": 266624541,
+          "bpm": 178,
+          "valence_%": 58,
+          "energy_%": 78,
+          "danceability_%": 79,
+          "speechiness_%": 25,
+          "acousticness_%": 34
+        },
+        {
+          "artist": "Karol G",
+          "feat": "Quevedo",
+          "track_name": "PERO Tï¿",
+          "streams": 93438910,
+          "bpm": 140,
+          "valence_%": 68,
+          "energy_%": 79,
+          "danceability_%": 86,
+          "speechiness_%": 29,
+          "acousticness_%": 39
+        }
+      ]
+    },
+    {
+      "name": "Marshmello",
+      "total_streams": 223633238,
+      "songs": [
+        {
+          "artist": "Marshmello",
+          "feat": "Manuel Turizo",
+          "track_name": "El Merengue",
+          "streams": 223633238,
+          "bpm": 124,
+          "valence_%": 70,
+          "energy_%": 68,
+          "danceability_%": 78,
+          "speechiness_%": 4,
+          "acousticness_%": 3
+        }
+      ]
+    },
+    {
+      "name": "Becky G",
+      "total_streams": 161460990,
+      "songs": [
+        {
+          "artist": "Becky G",
+          "feat": "Peso Pluma",
+          "track_name": "Chanel",
+          "streams": 161460990,
+          "bpm": 132,
+          "valence_%": 53,
+          "energy_%": 68,
+          "danceability_%": 85,
+          "speechiness_%": 4,
+          "acousticness_%": 40
+        }
+      ]
+    },
+    {
+      "name": "Bizarrap",
+      "total_streams": 1144201037,
+      "songs": [
+        {
+          "artist": "Bizarrap",
+          "feat": "Peso Pluma",
+          "track_name": "Peso Pluma: Bzrp Music Sessions, Vol. 55",
+          "streams": 200647221,
+          "bpm": 133,
+          "valence_%": 81,
+          "energy_%": 67,
+          "danceability_%": 85,
+          "speechiness_%": 5,
+          "acousticness_%": 26
+        },
+        {
+          "artist": "Bizarrap",
+          "feat": "Rauw Alejandro",
+          "track_name": "BABY HELLO",
+          "streams": 54266102,
+          "bpm": 130,
+          "valence_%": 84,
+          "energy_%": 89,
+          "danceability_%": 77,
+          "speechiness_%": 5,
+          "acousticness_%": 17
+        },
+        {
+          "artist": "Bizarrap",
+          "feat": "Rauw Alejandro",
+          "track_name": "Rauw Alejandro: Bzrp Music Sessions, Vol. 56",
+          "streams": 66902503,
+          "bpm": 128,
+          "valence_%": 59,
+          "energy_%": 65,
+          "danceability_%": 78,
+          "speechiness_%": 5,
+          "acousticness_%": 10
+        },
+        {
+          "artist": "Bizarrap",
+          "feat": "Shakira",
+          "track_name": "Shakira: Bzrp Music Sessions, Vol. 53",
+          "streams": 721975598,
+          "bpm": 122,
+          "valence_%": 50,
+          "energy_%": 63,
+          "danceability_%": 78,
+          "speechiness_%": 5,
+          "acousticness_%": 27
+        },
+        {
+          "artist": "Bizarrap",
+          "feat": "Arcangel",
+          "track_name": "Arcï¿½ï¿½ngel: Bzrp Music Sessions, Vol",
+          "streams": 100409613,
+          "bpm": 124,
+          "valence_%": 79,
+          "energy_%": 78,
+          "danceability_%": 72,
+          "speechiness_%": 30,
+          "acousticness_%": 55
+        }
+      ]
+    },
+    {
+      "name": "Nicki Minaj",
+      "total_streams": 104992946,
+      "songs": [
+        {
+          "artist": "Nicki Minaj",
+          "feat": "Ice Spice",
+          "track_name": "Princess Diana (with Nicki Minaj)",
+          "streams": 104992946,
+          "bpm": 148,
+          "valence_%": 74,
+          "energy_%": 68,
+          "danceability_%": 90,
+          "speechiness_%": 19,
+          "acousticness_%": 14
+        }
+      ]
     }
   ],
   "edges": [
@@ -394,491 +2268,491 @@
       "source": "Jung Kook",
       "target": "Latto",
       "stream": 141381703,
-      "sourceIndex": 22,
-      "targetIndex": 6
+      "sourceIndex": 90,
+      "targetIndex": 81
     },
     {
       "source": "Central Cee",
       "target": "Dave",
       "stream": 183706234,
-      "sourceIndex": 87,
-      "targetIndex": 86
+      "sourceIndex": 20,
+      "targetIndex": 52
     },
     {
       "source": "Peso Pluma",
       "target": "Eslabon Armado",
       "stream": 725980112,
-      "sourceIndex": 83,
+      "sourceIndex": 54,
       "targetIndex": 43
     },
     {
       "source": "Yng Lvcas",
       "target": "Peso Pluma",
       "stream": 553634067,
-      "sourceIndex": 76,
-      "targetIndex": 83
+      "sourceIndex": 40,
+      "targetIndex": 54
     },
     {
       "source": "Grupo Frontera",
       "target": "Bad Bunny",
       "stream": 505671438,
-      "sourceIndex": 42,
-      "targetIndex": 77
+      "sourceIndex": 79,
+      "targetIndex": 58
     },
     {
       "source": "Young Miko",
       "target": "Feid",
       "stream": 335222234,
-      "sourceIndex": 57,
-      "targetIndex": 51
+      "sourceIndex": 42,
+      "targetIndex": 87
     },
     {
       "source": "Peso Pluma",
       "target": "Bizarrap",
       "stream": 200647221,
-      "sourceIndex": 83,
-      "targetIndex": 53
+      "sourceIndex": 54,
+      "targetIndex": 95
     },
     {
       "source": "Bad Bunny",
       "target": "Tainy",
       "stream": 61245289,
-      "sourceIndex": 77,
+      "sourceIndex": 58,
       "targetIndex": 0
     },
     {
       "source": "Grupo Frontera",
       "target": "Peso Pluma",
       "stream": 52294266,
-      "sourceIndex": 42,
-      "targetIndex": 83
+      "sourceIndex": 79,
+      "targetIndex": 54
     },
     {
       "source": "Shakira",
       "target": "Karol G",
       "stream": 618990393,
-      "sourceIndex": 41,
-      "targetIndex": 69
+      "sourceIndex": 91,
+      "targetIndex": 92
     },
     {
       "source": "Grupo Frontera",
       "target": "Yahritza Y Su Esencia",
       "stream": 188933502,
-      "sourceIndex": 42,
-      "targetIndex": 33
+      "sourceIndex": 79,
+      "targetIndex": 71
     },
     {
       "source": "Peso Pluma",
       "target": "Junior H",
       "stream": 354495408,
-      "sourceIndex": 83,
-      "targetIndex": 64
+      "sourceIndex": 54,
+      "targetIndex": 41
     },
     {
       "source": "The Weeknd",
       "target": "Ariana Grande",
       "stream": 518745108,
-      "sourceIndex": 89,
-      "targetIndex": 59
+      "sourceIndex": 38,
+      "targetIndex": 74
     },
     {
       "source": "MC Kevin o Chris",
       "target": "dennis",
       "stream": 111947664,
-      "sourceIndex": 49,
-      "targetIndex": 35
+      "sourceIndex": 24,
+      "targetIndex": 85
     },
     {
       "source": "Ice Spice",
       "target": "PinkPantheress",
       "stream": 156338624,
-      "sourceIndex": 38,
-      "targetIndex": 24
+      "sourceIndex": 59,
+      "targetIndex": 19
     },
     {
       "source": "ROSALï¿½",
       "target": "Rauw Alejandro",
       "stream": 357925728,
-      "sourceIndex": 16,
-      "targetIndex": 29
+      "sourceIndex": 66,
+      "targetIndex": 14
     },
     {
       "source": "Bizarrap",
       "target": "Rauw Alejandro",
       "stream": 54266102,
-      "sourceIndex": 53,
-      "targetIndex": 29
+      "sourceIndex": 95,
+      "targetIndex": 14
     },
     {
       "source": "DJ Matt D",
       "target": "Mc Livinho",
       "stream": 39709092,
-      "sourceIndex": 26,
-      "targetIndex": 58
+      "sourceIndex": 72,
+      "targetIndex": 62
     },
     {
       "source": "Manuel Turizo",
       "target": "Marshmello",
       "stream": 223633238,
-      "sourceIndex": 85,
-      "targetIndex": 81
+      "sourceIndex": 1,
+      "targetIndex": 93
     },
     {
       "source": "Eladio Carrion",
       "target": "Bad Bunny",
       "stream": 250305248,
-      "sourceIndex": 19,
-      "targetIndex": 77
+      "sourceIndex": 88,
+      "targetIndex": 58
     },
     {
       "source": "Lil Durk",
       "target": "J. Cole",
       "stream": 144565150,
-      "sourceIndex": 7,
-      "targetIndex": 93
+      "sourceIndex": 16,
+      "targetIndex": 61
     },
     {
       "source": "Peso P",
       "target": "Jasiel Nuï¿½ï¿½ez",
       "stream": 39058561,
-      "sourceIndex": 37,
-      "targetIndex": 63
+      "sourceIndex": 9,
+      "targetIndex": 45
     },
     {
       "source": "Milo j",
       "target": "Taiu",
       "stream": 248088961,
-      "sourceIndex": 17,
-      "targetIndex": 54
+      "sourceIndex": 44,
+      "targetIndex": 7
     },
     {
       "source": "Peso Pluma",
       "target": "Junior H",
       "stream": 55842345,
-      "sourceIndex": 83,
-      "targetIndex": 64
+      "sourceIndex": 54,
+      "targetIndex": 41
     },
     {
       "source": "Ellie Goulding",
       "target": "Calvin Harris",
       "stream": 211050784,
-      "sourceIndex": 62,
-      "targetIndex": 31
+      "sourceIndex": 8,
+      "targetIndex": 34
     },
     {
       "source": "Bizarrap",
       "target": "Rauw Alejandro",
       "stream": 66902503,
-      "sourceIndex": 53,
-      "targetIndex": 29
+      "sourceIndex": 95,
+      "targetIndex": 14
     },
     {
       "source": "Bizarrap",
       "target": "Shakira",
       "stream": 721975598,
-      "sourceIndex": 53,
-      "targetIndex": 41
+      "sourceIndex": 95,
+      "targetIndex": 91
     },
     {
       "source": "DJ 900",
       "target": "Mc Pedrinho",
       "stream": 11956641,
-      "sourceIndex": 23,
-      "targetIndex": 96
+      "sourceIndex": 11,
+      "targetIndex": 69
     },
     {
       "source": "AgroPlay",
       "target": "Ana Castela",
       "stream": 233801632,
-      "sourceIndex": 74,
-      "targetIndex": 50
+      "sourceIndex": 75,
+      "targetIndex": 33
     },
     {
       "source": "Peso Pluma",
       "target": "Natanael Cano",
       "stream": 436027885,
-      "sourceIndex": 83,
-      "targetIndex": 30
+      "sourceIndex": 54,
+      "targetIndex": 89
     },
     {
       "source": "Junior H",
       "target": "Oscar Maydon",
       "stream": 307370144,
-      "sourceIndex": 64,
-      "targetIndex": 72
+      "sourceIndex": 41,
+      "targetIndex": 50
     },
     {
       "source": "Peso Pluma",
       "target": "Becky G",
       "stream": 161460990,
-      "sourceIndex": 83,
-      "targetIndex": 8
+      "sourceIndex": 54,
+      "targetIndex": 94
     },
     {
       "source": "Coi Leray",
       "target": "Metro Boomin",
       "stream": 70106975,
-      "sourceIndex": 94,
-      "targetIndex": 66
+      "sourceIndex": 65,
+      "targetIndex": 25
     },
     {
       "source": "Kaliii",
       "target": "Kaliii",
       "stream": 113509496,
-      "sourceIndex": 13,
-      "targetIndex": 13
+      "sourceIndex": 39,
+      "targetIndex": 39
     },
     {
       "source": "Eden Muï¿½ï",
       "target": "Junior H",
       "stream": 89933133,
-      "sourceIndex": 82,
-      "targetIndex": 64
+      "sourceIndex": 2,
+      "targetIndex": 41
     },
     {
       "source": "Doï¿½ï¿½u",
       "target": "Semicenk",
       "stream": 43522589,
-      "sourceIndex": 68,
-      "targetIndex": 60
+      "sourceIndex": 6,
+      "targetIndex": 4
     },
     {
       "source": "Ice Spice",
       "target": "Taylor Swift",
       "stream": 46142772,
-      "sourceIndex": 38,
-      "targetIndex": 88
+      "sourceIndex": 59,
+      "targetIndex": 48
     },
     {
       "source": "Peso Pluma",
       "target": "BLESSD",
       "stream": 127026613,
-      "sourceIndex": 83,
-      "targetIndex": 9
+      "sourceIndex": 54,
+      "targetIndex": 67
     },
     {
       "source": "Taylor Swift",
       "target": "Lana Del Rey",
       "stream": 60350538,
-      "sourceIndex": 88,
-      "targetIndex": 55
+      "sourceIndex": 48,
+      "targetIndex": 21
     },
     {
       "source": "Morgan Wallen",
       "target": "Lil Durk",
       "stream": 46065667,
-      "sourceIndex": 14,
-      "targetIndex": 7
+      "sourceIndex": 31,
+      "targetIndex": 16
     },
     {
       "source": "Metro Boomin",
       "target": "James Blake",
       "stream": 39666245,
-      "sourceIndex": 66,
-      "targetIndex": 28
+      "sourceIndex": 25,
+      "targetIndex": 27
     },
     {
       "source": "Mari Fernandez",
       "target": "Israel & Rodolffo",
       "stream": 138517666,
-      "sourceIndex": 73,
-      "targetIndex": 39
+      "sourceIndex": 77,
+      "targetIndex": 3
     },
     {
       "source": "Suga",
       "target": "Halsey",
       "stream": 51985779,
-      "sourceIndex": 79,
-      "targetIndex": 46
+      "sourceIndex": 49,
+      "targetIndex": 63
     },
     {
       "source": "Feid",
       "target": "Nicky Jam",
       "stream": 57945987,
-      "sourceIndex": 51,
-      "targetIndex": 40
+      "sourceIndex": 87,
+      "targetIndex": 10
     },
     {
       "source": "Feid",
       "target": "Sean Paul",
       "stream": 115010040,
-      "sourceIndex": 51,
-      "targetIndex": 67
+      "sourceIndex": 87,
+      "targetIndex": 15
     },
     {
       "source": "Beyoncï¿",
       "target": "Kendrick Lamar",
       "stream": 57089066,
-      "sourceIndex": 92,
-      "targetIndex": 84
+      "sourceIndex": 57,
+      "targetIndex": 55
     },
     {
       "source": "KayBlack",
       "target": "MC Caverinha",
       "stream": 71573339,
-      "sourceIndex": 90,
-      "targetIndex": 80
+      "sourceIndex": 35,
+      "targetIndex": 32
     },
     {
       "source": "JID",
       "target": "Offset",
       "stream": 24975653,
-      "sourceIndex": 71,
-      "targetIndex": 20
+      "sourceIndex": 29,
+      "targetIndex": 68
     },
     {
       "source": "LE SSERAFIM",
       "target": "Nile Rodgers",
       "stream": 92035115,
-      "sourceIndex": 48,
-      "targetIndex": 44
+      "sourceIndex": 22,
+      "targetIndex": 17
     },
     {
       "source": "Matuï¿",
       "target": "Rich The Kid",
       "stream": 77233241,
-      "sourceIndex": 70,
-      "targetIndex": 2
+      "sourceIndex": 82,
+      "targetIndex": 56
     },
     {
       "source": "Romeo Santos",
       "target": "Karol G",
       "stream": 266624541,
-      "sourceIndex": 34,
-      "targetIndex": 69
+      "sourceIndex": 36,
+      "targetIndex": 92
     },
     {
       "source": "La Kelly",
       "target": "Cartel De Santa",
       "stream": 162887075,
-      "sourceIndex": 12,
-      "targetIndex": 91
+      "sourceIndex": 30,
+      "targetIndex": 64
     },
     {
       "source": "Future",
       "target": "The Weeknd",
       "stream": 96180277,
-      "sourceIndex": 65,
-      "targetIndex": 89
+      "sourceIndex": 60,
+      "targetIndex": 38
     },
     {
       "source": "Ice Spice",
       "target": "Nicki Minaj",
       "stream": 104992946,
-      "sourceIndex": 38,
-      "targetIndex": 25
+      "sourceIndex": 59,
+      "targetIndex": 96
     },
     {
       "source": "Grupo Frontera",
       "target": "Grupo Marca Registrada",
       "stream": 147290338,
-      "sourceIndex": 42,
-      "targetIndex": 78
+      "sourceIndex": 79,
+      "targetIndex": 46
     },
     {
       "source": "Lisa",
       "target": "TAEYANG",
       "stream": 76910644,
-      "sourceIndex": 75,
-      "targetIndex": 45
+      "sourceIndex": 78,
+      "targetIndex": 12
     },
     {
       "source": "Jhayco",
       "target": "Quevedo",
       "stream": 61105704,
-      "sourceIndex": 21,
-      "targetIndex": 95
+      "sourceIndex": 70,
+      "targetIndex": 28
     },
     {
       "source": "Colde",
       "target": "RM",
       "stream": 34502215,
-      "sourceIndex": 4,
-      "targetIndex": 52
+      "sourceIndex": 13,
+      "targetIndex": 86
     },
     {
       "source": "Peso P",
       "target": "Jasiel Nuï¿½ï¿½ez",
       "stream": 90025258,
-      "sourceIndex": 37,
-      "targetIndex": 63
+      "sourceIndex": 9,
+      "targetIndex": 45
     },
     {
       "source": "Agust D",
       "target": "IU",
       "stream": 95816024,
-      "sourceIndex": 27,
-      "targetIndex": 61
+      "sourceIndex": 37,
+      "targetIndex": 18
     },
     {
       "source": "Bizarrap",
       "target": "Arcangel",
       "stream": 100409613,
-      "sourceIndex": 53,
-      "targetIndex": 1
+      "sourceIndex": 95,
+      "targetIndex": 83
     },
     {
       "source": "The Creator",
       "target": "Tyler",
       "stream": 80758350,
-      "sourceIndex": 47,
-      "targetIndex": 11
+      "sourceIndex": 73,
+      "targetIndex": 84
     },
     {
       "source": "The Creator",
       "target": "Tyler",
       "stream": 58473276,
-      "sourceIndex": 47,
-      "targetIndex": 11
+      "sourceIndex": 73,
+      "targetIndex": 84
     },
     {
       "source": "PR1ISVX",
       "target": "Kanii",
       "stream": 77377503,
-      "sourceIndex": 10,
-      "targetIndex": 3
+      "sourceIndex": 26,
+      "targetIndex": 51
     },
     {
       "source": "Chino Pacas",
       "target": "Fuerza Regida",
       "stream": 116334601,
-      "sourceIndex": 5,
-      "targetIndex": 18
+      "sourceIndex": 76,
+      "targetIndex": 53
     },
     {
       "source": "Bad Bunny",
       "target": "Gorillaz",
       "stream": 149778242,
-      "sourceIndex": 77,
-      "targetIndex": 15
+      "sourceIndex": 58,
+      "targetIndex": 23
     },
     {
       "source": "J. Cole",
       "target": "j-hope",
       "stream": 116599790,
-      "sourceIndex": 93,
-      "targetIndex": 36
+      "sourceIndex": 61,
+      "targetIndex": 47
     },
     {
       "source": "Eric Church",
       "target": "Morgan Wallen",
       "stream": 58890931,
-      "sourceIndex": 32,
-      "targetIndex": 14
+      "sourceIndex": 5,
+      "targetIndex": 31
     },
     {
       "source": "Quevedo",
       "target": "Karol G",
       "stream": 93438910,
-      "sourceIndex": 95,
-      "targetIndex": 69
+      "sourceIndex": 28,
+      "targetIndex": 92
     },
     {
       "source": "Jimin",
       "target": "TAEYANG",
       "stream": 152850295,
-      "sourceIndex": 56,
-      "targetIndex": 45
+      "sourceIndex": 80,
+      "targetIndex": 12
     }
   ]
 }
